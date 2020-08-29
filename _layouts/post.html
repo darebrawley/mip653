@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<article class="post h-entry">
+  <header class="post-header">
+    {%- if page.image -%}
+    <div >
+        <img class="img img-fluid full-width" src="{{ page.image }}" alt="{{ page.title }}"/>
+    </div>
+    {%- endif -%}
+    <table class="details">
+      <tbody>
+        {%- if page.title -%}
+        <tr>
+          <!-- <th>1</th> -->
+        
+          <th>Project</th>
+          <td>{{ page.title | escape }}</td>
+        </tr>
+
+        {%- endif -%}
+        {%- if page.date_visible -%}
+        <tr>
+          <th>Date</th>
+          <td>{{ page.date_visible }}</td>
+        </tr>
+        {%- endif -%}
+        {%- if page.team -%}
+        <tr>
+          <th>Team</th>
+          <td>{{ page.team }}</td>
+        </tr>
+        {%- endif -%}
+        {%- if page.description -%}
+        <tr>
+          <th>About</th>
+          <td>{{ page.description }}</td>
+        </tr>
+        {%- endif -%}
+      </tbody>
+  </table>
+
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

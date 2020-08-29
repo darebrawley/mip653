@@ -1,0 +1,37 @@
+#mapid { height: 90%; }
+
+.leaflet-container {
+    background-color:rgba(255,0,0,0.0);
+}
+
+
+#floating {
+  position:absolute;
+top: 10%;
+left: 10%;
+}
+
+
+#in{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  z-index: 9000;
+  background-color: #69D2E7;
+  cursor:pointer;
+
+}
+#out{
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  padding-right: 5px;
+  padding-left: 10px;
+  z-index: 9000;
+  background-color: #A7DBDB;
+  cursor:pointer;
+}
+
+
