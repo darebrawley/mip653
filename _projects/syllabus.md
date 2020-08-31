@@ -5,12 +5,19 @@ team:
 date_visible: 
 image: '../images/'
 formats: "formats,formats"
-permalink: /permalink/
+permalink: /syllabus/
 description: 
 ---
 
 
 ## Course description
+This course provides an introduction to geographic information systems (GIS) and to the use of spatial methods for analyzing and designing urban spaces. 
+
+Maps and geographic analysis are key tools for interpreting the built environment and the social conditions it contains. GIS methods allow for the analysis of geographic features together with attributes (environmental, social, demographic, political) of those places. 
+
+The thoughtful use of spatial data can reveal previously unseen patterns, changing the way we see our world. Map-based approaches can transform the understanding of initial site conditions. However maps are never *just* representations, they are nearly always active agents in shaping the worlds they describe. Geographic analysis can define the baseline of what is considered or excluded – and when used by urban planners and designers, what is possible and what is not possible. 
+
+This course engages with this agency of maps directly in hands-on workshops covering the technical skills required to use maps as both tools for research and design-based interventions. Likewise the course will focus throughout on fostering a deep understanding of the promises, as well as the limitations of GIS-based methods. 
 
 ### Course structure 
 The course syllabus will be divided into four major sections addressing key geographic concepts:  
@@ -20,10 +27,12 @@ Mapping values and categories
 Mapping overlaps, intersections, and paths    
 Mapping proximity and concentration
 
+The final weeks of class will be dedicated to synthesizing methods and topics covered towards the development of the final project. 
+
 Each section will consist of lectures on the geographic concepts under consideration, discussions of readings and example projects/maps, and skills-focused workshops. After each workshop students will complete weekly (or biweekly) mapping assignments requiring increasingly independent work leading towards the final project.
 
-### Thematic Focus
-The course will focus on current equitable development goals in Newark. Using the Newark Forward plan as a guide the skills based mapping assignments will be framed as a series of case studies on issues addressed in the plan. Students will be asked to develop a final project that uses the plan as a starting point to define a research or advocacy project focused on Newark. 
+### Thematic/Geographic Focus
+The course will focus on current equitable development goals in Newark. Using the Newark Forward plan as a guide, the skills based mapping assignments will use datasets with relevance to issues addressed in the plan. Students will be asked to develop a final project that uses the plan as a starting point to define a research or advocacy project focused on Newark. 
 
 ### Learning Objectives
 After completing this course students will:
@@ -43,7 +52,7 @@ ____
   
 ## Course requirements
 
-Participation in class discussion and workshops (20%)  
+Participation in class discussion and workshops, including map presentations (20%)  
 Completion of weekly skills-focused mapping assignments (40%)  
 Final project (40%)  
     Proposal (10%)  
@@ -54,7 +63,10 @@ Final project (40%)
  -->
 
 ### Class participation
-Each week students will post two questions related to the week's readings to the discussion board on Canvas by 10pm on Tuesday. When developing questions students should consider connections between multiple texts (either from the current week or prior weeks). The questions should refer to specific parts of the reading (for example through quotation).
+Each week students will post two questions related to the week's readings to the discussion board on Canvas by 10pm on Tuesday. When developing questions students should consider connections between multiple texts (either from the current week or prior weeks). The questions should refer to specific parts of the reading (for example through quotation). 
+
+In addition, students will sign up after the first week of classes to bring a map example to class discussion once over the course of the semester. Students will upload an image or link to a map (or atlas) that they wish to discuss with the class, and will then present what they find interesting, intriguing, noteworthy about the map in a 5 minute presentation during class. 
+The examples presented over the course of the semester will contribute to a shared class resources of visual and thematic precedents. 
 
 ### Mapping assignments
 There will be four critical skills-focused mapping assignments over the course of the semester. These will provide additional instruction beyond in-class lectures and discussions and will focus on the technical application of concepts in spatial representation and analysis in a GIS software environment. 
@@ -94,9 +106,9 @@ Please note that it is my professional obligation and responsibility to report a
 Students with disabilities who may need disability-related accommodations for this course are encouraged to make an appointment to speak with Dare Brawley at the start of the semester. A Letter of Accommodation Eligibility from the Office of Accessibility Resources & Services (OARS) authorizing your accommodations will be required. Chantonette Lyles, Associate Director OARS (oars@njit.edu or 973-596-5417) is the point of contact for this letter, please reach out to discuss your specific needs.  
 
 ### Device policy
-During scheduled class time students will be expected to use their computers only to access course-related materials (Webex meeting, tutorial resources, class syllabus, readings). 
+During scheduled class time students will be expected to use their computers only to access course-related materials (Webex meeting, tutorial resources, class syllabus, readings, QGIS). 
 
-The online format of this course means that minimizing/resisting external distractions from non-class related computing (social media usage, email, other work, online shopping etc) is the responsibility of all students. For more on computation and attention please see Tim Wu's [*Attention Merchants: The Epic Scramble to get Inside our Heads*](https://www.penguinrandomhouse.com/books/234876/the-attention-merchants-by-tim-wu/)
+The online format of this course means that minimizing/resisting external distractions from non-class related computing (social media usage, email, other work, online shopping etc) is challenging but a shared responsibility of all members of the class. For more on computation and attention please see Tim Wu's [*Attention Merchants: The Epic Scramble to get Inside our Heads*](https://www.penguinrandomhouse.com/books/234876/the-attention-merchants-by-tim-wu/)
 
 ____  
 ## Resources
@@ -108,7 +120,7 @@ Office hours will be held via Webex by appointment on Thursday 5-6pm and Friday 
 
 Geographic Information Systems is not a software. As such this course will not seek to provide students with proficiency in a particular software platform. 
 
-Tutorial resources will be primarily provided for the QGIS 3.10. This is an open source software program for geographic analysis that runs on Windows, Mac, and Linux operating systems. All students will be expected to download and install QGIS 3.10. Documentation for QGIS is available [here](https://docs.qgis.org/3.10/en/docs/index.html), and a training manual with good basic tutorials is available [here](https://docs.qgis.org/3.10/en/docs/training_manual/).
+Tutorial resources will be primarily provided for QGIS 3.10. This is an open source software program for geographic analysis that runs on Windows, Mac, and Linux operating systems. All students will be expected to download and install QGIS 3.10. Documentation for QGIS is available [here](https://docs.qgis.org/3.10/en/docs/index.html), and a training manual with good basic tutorials is available [here](https://docs.qgis.org/3.10/en/docs/training_manual/).
 
 ESRI ArcGIS Pro is another software tool for work with geographic information systems. This is a proprietary software available to you via remote desktop to NJIT computer labs. Suggested tutorials in ArcGIS [published by ESRI](https://www.esri.com/en-us/arcgis/products/arcgis-pro/resources) will be made available throughout the semester in connection with relevant course topics. Students are encouraged to develop familiarity with ArcGIS Pro. 
 
@@ -155,6 +167,7 @@ Week 02
 09 September 2020  
 Defining location: working with spatial data 
 
+**assignment 01 distributed**
 <!-- - lines, points polygons
     - attributes
     - table join
@@ -191,8 +204,8 @@ Section two covers concepts and methods for using maps to describe abstract spat
 Week 04  
 23 September 2020  
 Data classification, symbology (vector)  
-**due:** Assignment I: mapping where things are
-
+**due:** Assignment 01: mapping where things are
+**assignment 02 distributed**
 **readings:**  
 <!-- add in chapter on million dollar blocks?? -->
 Kurgan, Laura. “Mapping Considered as a Problem of Theory and Practice.” In Close up at a Distance : Mapping, Technology, and Politics, 9–18. Brooklyn, NY: Zone Books, 2013.   
@@ -253,8 +266,8 @@ Spatial operations with vector data
     - buffers 
     - geometric operations
     - MAUP -->
-**due:** Assignment II: mapping categories and values  
-
+**due:** Assignment 02: mapping categories and values  
+**assignment 03 distributed**  
 **readings:**  <!-- add more project examples -->
 McHarg, Ian L. Design with Nature. New York: J. Wiley, c1992. [Selections]
 
@@ -275,7 +288,8 @@ On the ground distance in networks
     - walkshed (https://traveltime.com/blog/isochrone-qgis-plugin-traveltime)
     - topology of data
     - open street map data access -->
-**due:** Assignment III: mapping overlaps, intersections and paths 
+**due:** Assignment 03: mapping overlaps, intersections and paths 
+**assignment 04 distributed** 
 
 **reading:**  
 Miller, Harvey J. “Tobler’s First Law and Spatial Analysis.” Annals of the Association of American Geographers 94, no. 2 (2004): 284–89.
@@ -293,15 +307,17 @@ Baics, Gergely, and Leah Meisterlin. “Zoning Before Zoning: Land Use and Densi
 
 Additional reading/project example TBD
 
+### V. MAPS IN ACTION | PROJECT WORKSHOPS
 ___
+
 Week 10  
 04 November 2020  
 Proposal presentations & workshop
-
-**due:** Final project topic proposal
+<!-- need to decide if they will present proposals -->
+**due:** Final project topic proposal  
+**due:** Assignment 04: mapping proximity and concentration  
 
 ___
-### V. MAPS IN ACTION | PROJECT WORKSHOPS
 
 Week 11   
 11 November 2020   
@@ -311,9 +327,9 @@ Methodology workshop
 
 ___  
 
-#### Week 12   
-#### 18 November 2020     
-#### Desk crits    
+Week 12   
+18 November 2020     
+Desk crits    
 
 **due:** revised methods, preliminary maps   
 
@@ -330,32 +346,6 @@ ___
 Week 14    
 9 December 2020    
 Final presentations with guest critics    
-
-
-### References:
-
-
-Monmonier, Mark S. “Elements of the Map.” In How to Lie with Maps, 5–26. Chicago : University of Chicago Press, 1991.
-
-Monmonier, Mark S. “Data Maps: A Thicket of Thorny Choices.” In How to Lie with Maps, 153–78. Chicago : University of Chicago Press, 1991.
-
-
-Aalbers, Manuel B. “Do Maps Make Geography? Part 1: Redlining, Planned Shrinkage, and the Places of Decline.” ACME: An International Journal for Critical Geographies 13, no. 4 (2014): 525–56.  
-
-
-Couclelis, Helen. “People Manipulate Objects (but Cultivate Fields): Beyond the Raster-Vector Debate in GIS.” In Theories and Methods of Spatio-Temporal Reasoning in Geographic Space, edited by A. U. Frank, I. Campari, and U. Formentini, 639:65–77. Lecture Notes in Computer Science. Berlin, Heidelberg: Springer Berlin Heidelberg, 1992. 
-
-Desimini, Jill, and Charles Waldheim. “Introduction: Projecting the Landscape Imaginary.” In Cartographic Grounds : Projecting the Landscape Imaginary. New York: Princeton Architectural Press, 2016.  
-
-Kurgan, Laura. “Mapping Considered as a Problem of Theory and Practice.” In Close up at a Distance : Mapping, Technology, and Politics, 9–18. Brooklyn, NY: Zone Books, 2013.   
-
-Wood, Denis, and John Krygier. “Ce n’est Pas Le Monde.” In Rethinking Maps : New Frontiers in Cartographic Theory, edited by Martin Dodge, Rob Kitchin, Chris Perkins, Rob Kitchin, and Chris Perkins. Routledge, 2011. https://doi.org/10.4324/9780203876848.  
-
-
-
-US Census Bureau. “A Compass for Understanding and Using American Community Survey Data: What General Data Users Need to Know.” US Department of Commerce. Economics and Statistics Administration., 2008.
-
-
 
 
 
