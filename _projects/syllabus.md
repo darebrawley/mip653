@@ -10,6 +10,19 @@ description:
 ---
 
 
+## Syllabus 
+
+Fall 2020
+NJIT MIP 652   
+Wednesdays 6-8:50pm  
+Instructor: Dare Brawley  
+dare.a.brawley@njit.edu | @darebrawley  
+
+
+
+___ 
+
+
 ## Course description
 This course provides an introduction to geographic information systems (GIS) and to the use of spatial methods for analyzing and designing urban spaces. 
 
@@ -31,10 +44,10 @@ The final weeks of class will be dedicated to synthesizing methods and topics co
 
 Each section will consist of lectures on the geographic concepts under consideration, discussions of readings and example projects/maps, and skills-focused workshops. After each workshop students will complete weekly (or biweekly) mapping assignments requiring increasingly independent work leading towards the final project.
 
-### Thematic/Geographic Focus
+### Thematic/geographic focus
 The course will focus on current equitable development goals in Newark. Using the Newark Forward plan as a guide, the skills based mapping assignments will use datasets with relevance to issues addressed in the plan. Students will be asked to develop a final project that uses the plan as a starting point to define a research or advocacy project focused on Newark. 
 
-### Learning Objectives
+### Learning objectives
 After completing this course students will:
 
 -  have developed basic proficiency in the use of desktop GIS software for mapping urban environments
@@ -180,8 +193,9 @@ Wood, Denis, and John Krygier. “Ce n’est Pas Le Monde.” In Rethinking Maps
 
 Corner, James. “The Agency of Mapping.” In Landscape Imagination: Collected Essays of James Corner 1990-2010. New York, UNITED STATES: Princeton Architectural Press, 2014.  
 
-Desimini, Jill, and Charles Waldheim. “Introduction: Projecting the Landscape Imaginary.” In Cartographic Grounds : Projecting the Landscape Imaginary. New York: Princeton Architectural Press, 2016.
-___
+Desimini, Jill, and Charles Waldheim. “Introduction: Projecting the Landscape Imaginary.” In Cartographic Grounds : Projecting the Landscape Imaginary. New York: Princeton Architectural Press, 2016.  
+
+___  
 Week 03    
 16 September 2020  
 Projections and coordinate reference systems; map composition 
