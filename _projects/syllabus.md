@@ -10,7 +10,7 @@ description:
 ---
 
 
-## Syllabus 
+# Syllabus 
 
 Fall 2020
 NJIT MIP 652   
@@ -18,12 +18,13 @@ Wednesdays 6-8:50pm
 Instructor: Dare Brawley  
 dare.a.brawley@njit.edu | @darebrawley  
 
-
+<br>
 
 ___ 
 
+<br>
 
-## Course description
+# Description
 This course provides an introduction to geographic information systems (GIS) and to the use of spatial methods for analyzing and designing urban spaces. 
 
 Maps and geographic analysis are key tools for interpreting the built environment and the social conditions it contains. GIS methods allow for the analysis of geographic features together with attributes (environmental, social, demographic, political) of those places. 
@@ -33,12 +34,20 @@ The thoughtful use of spatial data can reveal previously unseen patterns, changi
 This course engages with this agency of maps directly in hands-on workshops covering the technical skills required to use maps as both tools for research and design-based interventions. Likewise the course will focus throughout on fostering a deep understanding of the promises, as well as the limitations of GIS-based methods. 
 
 ### Course structure 
-The course syllabus will be divided into four major sections addressing key geographic concepts:  
+The course syllabus will be divided into three major sections addressing key geographic concepts:  
 
-Mapping where things are  
-Mapping values and categories    
-Mapping overlaps, intersections, and paths    
-Mapping proximity and concentration
+1. **MAPPING WHERE THINGS ARE**   
+The first module in the course will introduce fundamental frameworks for working with Geographic Information Systems including: defining location, spatial data types, projections and coordinate reference systems. 
+
+2. **MAPPING VALUES AND CATEGORIES**  
+Section two covers concepts and methods for using maps to describe abstract spatial phenomena. We move beyond "this is here" and introduce approaches to describing quantitative and qualitative data about locations. 
+
+3. **MAPPING SPATIAL RELATIONSHIPS**  
+    3a. **OVERLAPS, INTERSECTIONS, AND PATHS**   
+    3b. **PROXIMITY AND CONCENTRATION**   
+In section three we introduce spatial concepts central to both analysis and drawing methods in GIS. We will work with key techniques for analyzing the spatial relationships between multiple data sources -- revealing new information that would not be possible to discern without geographic information systems.    
+
+
 
 The final weeks of class will be dedicated to synthesizing methods and topics covered towards the development of the final project. 
 
@@ -55,15 +64,15 @@ After completing this course students will:
 -  be able to discuss the role of mapping in the design process, its imposed biases, and have a nuanced understanding of the ethical considerations of data-driven work
 -  understand how to incorporate GIS into design-based workflows (including Adobe Creative Suite & Rhino) 
 -  have developed familiarity with core analytical processes in GIS including: 
--  Geometric operations
--  Overlay operations
--  Measuring densities, and concentrations
-- Defining contextually appropriate understandings of proximity
+    -  Geometric operations
+    -  Overlay operations
+    -  Measuring densities, and concentrations
+    - Defining contextually appropriate understandings of proximity
 
 ____  
 
   
-## Course requirements
+# Requirements & expectations
 
 Participation in class discussion and workshops, including map presentations (20%)  
 Completion of weekly skills-focused mapping assignments (40%)  
@@ -124,7 +133,10 @@ During scheduled class time students will be expected to use their computers onl
 The online format of this course means that minimizing/resisting external distractions from non-class related computing (social media usage, email, other work, online shopping etc) is challenging but a shared responsibility of all members of the class. For more on computation and attention please see Tim Wu's [*Attention Merchants: The Epic Scramble to get Inside our Heads*](https://www.penguinrandomhouse.com/books/234876/the-attention-merchants-by-tim-wu/)
 
 ____  
-## Resources
+# Resources
+
+### Google Drive
+All readings and course assignments will be posted to the [course google drive](https://drive.google.com/drive/folders/147egEq5QrEG17u_tENl_mJ21KoLYKBV_?usp=sharing) unless otherwise noted. 
 
 ### Office hours
 Office hours will be held via Webex by appointment on Thursday 5-6pm and Friday 10-11am. Please email dare.a.brawley@njit.edu at least 24 hours in advance to set up an appointment.
@@ -139,7 +151,7 @@ ESRI ArcGIS Pro is another software tool for work with geographic information sy
 
 Knowledge of design and layout programs (Adobe Illustrator, and InDesign) will be expected and required for the completion of multiple assignments. 
 
-#### Remote access
+### Remote access
 Policies for remote software access and software that is available to download are available here: 
 - [List](https://ist.njit.edu/software-available-download) of software available for download
 - [Instructions](https://ist.njit.edu/software-available-labs) to access computer labs remotely
@@ -156,11 +168,10 @@ Learning how to troubleshoot technical issues and locate relevant resources is c
 
 
 ____
-## Course schedule
+# Course schedule
 
-###  I. MAPPING WHERE THINGS ARE
+###  1. MAPPING WHERE THINGS ARE
 <!-- todo: tutorial finished by 9/9 -->
-The first module in the course will introduce fundamental frameworks for working with Geographic Information Systems including: defining location, spatial data types, projections and coordinate reference systems. 
 
 Week 01  
 02 September 2020  
@@ -174,8 +185,10 @@ Introductions, GIS mapping basics
     - software install & troubleshooting
     -  -->
 
-**in class:** map close reading and discussion  
-____ 
+**in class:** map close reading and discussion   
+
+
+____  
 Week 02  
 09 September 2020  
 Defining location: working with spatial data 
@@ -188,12 +201,12 @@ Defining location: working with spatial data
         - organizing project folders
         - above applied in QGIS  -->
 
-**readings:**   
-Wood, Denis, and John Krygier. “Ce n’est Pas Le Monde.” In Rethinking Maps : New Frontiers in Cartographic Theory, edited by Martin Dodge, Rob Kitchin, Chris Perkins, Rob Kitchin, and Chris Perkins. Routledge, 2011.
+**readings:**    
+Wood, Denis, and John Krygier. “Ce n’est Pas Le Monde.”  2011.
 
-Corner, James. “The Agency of Mapping.” In Landscape Imagination: Collected Essays of James Corner 1990-2010. New York, UNITED STATES: Princeton Architectural Press, 2014.  
+Corner, James. “The Agency of Mapping.”  2014.  
 
-Desimini, Jill, and Charles Waldheim. “Introduction: Projecting the Landscape Imaginary.” In Cartographic Grounds : Projecting the Landscape Imaginary. New York: Princeton Architectural Press, 2016.  
+Desimini, Jill, and Charles Waldheim. “Introduction: Projecting the Landscape Imaginary.” 2016.  
 
 ___  
 Week 03    
@@ -205,26 +218,29 @@ Projections and coordinate reference systems; map composition
         - discussion of beautiful maps -->
 
 <!-- brief reading discussion this week -->
-**readings:**
-Monmonier, Mark S. "Introduction"; “Elements of the Map”; "Map generalization: Little White Lies and Lots of Them" In How to Lie with Maps, 5–26. Chicago : University of Chicago Press, 1991.
+**readings:**  
+<!-- TO DO scan -->
+Monmonier, Mark S. "Introduction"; “Elements of the Map”; "Map generalization: Little White Lies and Lots of Them." 1991.
 
 <!-- petro chemical america + cartographic grounds -->
 ___
-### II. MAPPING VALUES AND CATEGORIES
-<!-- tutorial finished by 9/23 -->
-Section two covers concepts and methods for using maps to describe abstract spatial phenomena. We move beyond "this is here" and introduce approaches to describing quantitative and qualitative data about locations. 
+<br>
 
-#### Part I: Mapping values and categories with vector data
+### 2. MAPPING VALUES AND CATEGORIES
+<!-- tutorial finished by 9/23 -->
+
+#### 2a: Mapping values and categories with vector data
 Week 04  
 23 September 2020  
 Data classification, symbology (vector)  
-**due:** Assignment 01: mapping where things are
-**assignment 02 distributed**
-**readings:**  
+**due:** Assignment 01: mapping where things are  
+**assignment 02 distributed**  
+**readings:**    
 <!-- add in chapter on million dollar blocks?? -->
-Kurgan, Laura. “Mapping Considered as a Problem of Theory and Practice.” In Close up at a Distance : Mapping, Technology, and Politics, 9–18. Brooklyn, NY: Zone Books, 2013.   
+Kurgan, Laura. “Mapping Considered as a Problem of Theory and Practice.” 2013.   
 
-Monmonier, Mark S. “Data Maps: A Thicket of Thorny Choices.” In How to Lie with Maps, 153–78. Chicago : University of Chicago Press, 1991.
+<!-- TODO SCAN -->
+Monmonier, Mark S. “Data Maps: A Thicket of Thorny Choices.” 1991.  
 
 
 ___
@@ -237,40 +253,41 @@ U.S. Census, Public data, and demographic maps
 Workshop on finding data sets -->
 
 **readings:**  
-Shelton, Taylor. “Rethinking the RECAP: Mapping the Relational Geographies of Concentrated Poverty and Affluence in Lexington, Kentucky.” Urban Geography 39, no. 7 (August 9, 2018): 1070–91. https://doi.org/10.1080/02723638.2018.1433927.
+Shelton, Taylor. “Rethinking the RECAP: Mapping the Relational Geographies of Concentrated Poverty and Affluence in Lexington, Kentucky.” 2018.
 
-McElroy, Erin. “Mapping the Anti-Eviction Struggle in the San Francisco Bay Area.” In This Is Not an Atlas: A Global Collection of Counter-Cartographies, edited by Kollektiv Orangotango+, First edition. Sozial- Und Kulturgeographie, volume 26. Bielefeld: Transcript Verlag, 2018.
+Maharawal, Manissa M., and Erin McElroy. “The Anti-Eviction Mapping Project: Counter Mapping and Oral History toward Bay Area Housing Justice.” 2018.
 
-Aalbers, Manuel B. “Do Maps Make Geography? Part 1: Redlining, Planned Shrinkage, and the Places of Decline.” ACME: An International Journal for Critical Geographies 13, no. 4 (2014): 525–56. 
+Aalbers, Manuel B. “Do Maps Make Geography? Part 1: Redlining, Planned Shrinkage, and the Places of Decline.” 2014.
 
-*skim for reference:*  
-US Census Bureau. “A Compass for Understanding and Using American Community Survey Data: What General Data Users Need to Know.” US Department of Commerce. Economics and Statistics Administration, 2008.
+***skim for reference:***
+US Census Bureau. “A Compass for Understanding and Using American Community Survey Data: What General Data Users Need to Know.” 2008.
 
 ___
+<br>
 
-#### Part II: Mapping values and categories with raster data  
+#### 2b: Mapping values and categories with raster data  
 Week 06  
 07 October 2020  
 Remote sensing, classifications, digital elevation models & false color composites  
 
 
 <!-- tutorial should include -->
-**reading:**  
-Couclelis, Helen. “People Manipulate Objects (but Cultivate Fields): Beyond the Raster-Vector Debate in GIS.” 
+**readings:**    
+Couclelis, Helen. “People Manipulate Objects (but Cultivate Fields): Beyond the Raster-Vector Debate in GIS.” 1992.  
 
-Wallace, Tim, Derek Watkins, and John Schwartz. [“A Map of Every Building in America.”](https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html) The New York Times, October 12, 2018, sec. U.S.
+Wallace, Tim, Derek Watkins, and John Schwartz. [“A Map of Every Building in America.”](https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html) 2018  
 
-***Skim:*** Brief technical documentation: [Microsoft/USBuildingFootprints. 2018. Microsoft, 2020.](https://github.com/microsoft/USBuildingFootprints.)
+***Skim:*** Brief technical documentation: [Microsoft/USBuildingFootprints. 2018. Microsoft, 2020.](https://github.com/microsoft/USBuildingFootprints.)  
 
-**watch:** 
-[*In Plain Sight*](https://vimeo.com/290575503) by Diller Scofidio + Renfro, Laura Kurgan, Robert Gerard Pietrusko with Columbia
-Center for Spatial Research at the 2018 U.S. Pavilion.
+**watch:**   
+[*In Plain Sight*](https://vimeo.com/290575503) by Diller Scofidio + Renfro, Laura Kurgan, Robert Gerard Pietrusko with Columbia Center for Spatial Research at the 2018 U.S. Pavilion.  
 
 ___
+<br>
 
-### III. MAPPING OVERLAPS, INTERSECTIONS, AND PATHS
+### 3. MAPPING SPATIAL RELATIONSHIPS
+#### 3a. MAPPING OVERLAPS, INTERSECTIONS, AND PATHS
 <!-- tutorial finished by 10/14 -->
-In section three we introduce spatial concepts central to both analysis and drawing methods in GIS. We will work with key techniques for analyzing the spatial relationships between multiple data sources -- revealing new information that would not be possible to discern without geographic information systems. 
 
 Week 07  
 14 October 2020  
@@ -280,20 +297,23 @@ Spatial operations with vector data
     - buffers 
     - geometric operations
     - MAUP -->
-**due:** Assignment 02: mapping categories and values  
-**assignment 03 distributed**  
-**readings:**  <!-- add more project examples -->
-McHarg, Ian L. Design with Nature. New York: J. Wiley, c1992. [Selections]
+**due:** Assignment 02: mapping categories and values    
+**assignment 03 distributed**    
+
+**readings:**    <!-- add more project examples -->
+McHarg, Ian L. Design with Nature. 1969. [Selections]
 
 Kurgan, Laura, Eric Cadora, Sarah Williams, and David Reinfurt. “The Pattern: Million Dollar Blocks,” 2008.
 
-Armborst, Tobias, Daniel D’Oca, Georgeen Theodore, and Riley Gold. The Arsenal of Exclusion & Inclusion. New York: Actar Publishers, 2017.[Selections]
+<!-- TODO SCAN -->
+Armborst, Tobias, Daniel D’Oca, Georgeen Theodore, and Riley Gold. The Arsenal of Exclusion & Inclusion. 2017.[Selections]
 
 
 ___
-### IV. MAPPING PROXIMITY AND CONCENTRATION
+<br>
+
+#### 3b. MAPPING PROXIMITY AND CONCENTRATION
 <!-- tutorial finished by 10/28 -->
-In section four we introduce two other spatial concepts that enable new methods of thinking about and describing the relationships between locations and phenomena.  
 
 Week 08  
 21 October 2020  
@@ -302,14 +322,14 @@ On the ground distance in networks
     - walkshed (https://traveltime.com/blog/isochrone-qgis-plugin-traveltime)
     - topology of data
     - open street map data access -->
-**due:** Assignment 03: mapping overlaps, intersections and paths 
-**assignment 04 distributed** 
+**due:** Assignment 03: mapping overlaps, intersections and paths   
+**assignment 04 distributed**   
 
 **reading:**  
-Miller, Harvey J. “Tobler’s First Law and Spatial Analysis.” Annals of the Association of American Geographers 94, no. 2 (2004): 284–89.
+Miller, Harvey J. “Tobler’s First Law and Spatial Analysis.” 2004.
 
 <!-- not sure how good this is, maybe more general one about osm?? -->
-Wilmott, Clancy. “‘Mapping-with’: The Politics of (Counter-)Classification in OpenStreetMap.” Cartographic Perspectives, no. 92 (January 2019): 43–57. https://doi.org/10.14714/CP92.1451.
+Wilmott, Clancy. “‘Mapping-with’: The Politics of (Counter-)Classification in OpenStreetMap.” 2019.
 
 ___
 Week 09   
@@ -317,12 +337,17 @@ Week 09
 Density mapping & clusters  
 
 **reading:**  
-Baics, Gergely, and Leah Meisterlin. “Zoning Before Zoning: Land Use and Density in Mid-Nineteenth-Century New York City.” Annals of the American Association of Geographers 106, no. 5 (September 2, 2016): 1152–75. https://doi.org/10.1080/24694452.2016.1177442.
+Baics, Gergely, and Leah Meisterlin. “Zoning Before Zoning: Land Use and Density in Mid-Nineteenth-Century New York City.”  2016. 
+
 
 Additional reading/project example TBD
 
-### V. MAPS IN ACTION | PROJECT WORKSHOPS
 ___
+
+<br>
+
+### 5. MAPS IN ACTION | PROJECT WORKSHOPS
+
 
 Week 10  
 04 November 2020  
@@ -353,7 +378,7 @@ Week 13
 2 December 2020     
 Desk crits 
 
-**due:**   
+**due:**  TBD, project specific progress, near final output maps
 
 ___   
 
@@ -364,8 +389,37 @@ Final presentations with guest critics
 
 
 
+# References
 
+Wood, Denis, and John Krygier. “Ce n’est Pas Le Monde.” In Rethinking Maps : New Frontiers in Cartographic Theory, edited by Martin Dodge, Rob Kitchin, Chris Perkins, Rob Kitchin, and Chris Perkins. Routledge, 2011.
 
+Corner, James. “The Agency of Mapping.” In Landscape Imagination: Collected Essays of James Corner 1990-2010. New York, UNITED STATES: Princeton Architectural Press, 2014.  
 
+Desimini, Jill, and Charles Waldheim. “Introduction: Projecting the Landscape Imaginary.” In Cartographic Grounds : Projecting the Landscape Imaginary. New York: Princeton Architectural Press, 2016.  
 
+Monmonier, Mark S. "Introduction"; “Elements of the Map”; "Map generalization: Little White Lies and Lots of Them" In How to Lie with Maps, 5–26. Chicago : University of Chicago Press, 1991.
 
+Kurgan, Laura. “Mapping Considered as a Problem of Theory and Practice.” In Close up at a Distance : Mapping, Technology, and Politics, 9–18. Brooklyn, NY: Zone Books, 2013.   
+
+Monmonier, Mark S. “Data Maps: A Thicket of Thorny Choices.” In How to Lie with Maps, 153–78. Chicago : University of Chicago Press, 1991.
+
+Shelton, Taylor. “Rethinking the RECAP: Mapping the Relational Geographies of Concentrated Poverty and Affluence in Lexington, Kentucky.” Urban Geography 39, no. 7 (August 9, 2018): 1070–91. https://doi.org/10.1080/02723638.2018.1433927.
+
+Maharawal, Manissa M., and Erin McElroy. “The Anti-Eviction Mapping Project: Counter Mapping and Oral History toward Bay Area Housing Justice.” Annals of the American Association of Geographers 108, no. 2 (March 2018)
+
+Aalbers, Manuel B. “Do Maps Make Geography? Part 1: Redlining, Planned Shrinkage, and the Places of Decline.” ACME: An International Journal for Critical Geographies 13, no. 4 (2014): 525–56. 
+
+*skim for reference:*  
+US Census Bureau. “A Compass for Understanding and Using American Community Survey Data: What General Data Users Need to Know.” US Department of Commerce. Economics and Statistics Administration, 2008.
+
+McHarg, Ian L. Design with Nature. New York: J. Wiley, c1992. [Selections]
+
+Kurgan, Laura, Eric Cadora, Sarah Williams, and David Reinfurt. “The Pattern: Million Dollar Blocks,” 2008.
+
+Armborst, Tobias, Daniel D’Oca, Georgeen Theodore, and Riley Gold. The Arsenal of Exclusion & Inclusion. New York: Actar Publishers, 2017.[Selections]
+
+Miller, Harvey J. “Tobler’s First Law and Spatial Analysis.” Annals of the Association of American Geographers 94, no. 2 (2004): 284–89.
+
+Wilmott, Clancy. “‘Mapping-with’: The Politics of (Counter-)Classification in OpenStreetMap.” Cartographic Perspectives, no. 92 (January 2019): 43–57. https://doi.org/10.14714/CP92.1451.
+
+Baics, Gergely, and Leah Meisterlin. “Zoning Before Zoning: Land Use and Density in Mid-Nineteenth-Century New York City.” Annals of the American Association of Geographers 106, no. 5 (September 2, 2016): 1152–75. https://doi.org/10.1080/24694452.2016.1177442.
