@@ -3,7 +3,7 @@ layout: post
 title: 
 team: 
 date_visible: 
-image: '../images/'
+image: 
 formats: "formats,formats"
 permalink: /syllabus/
 description: 
@@ -174,8 +174,8 @@ Introductions, GIS mapping basics
     - software install & troubleshooting
     -  -->
 
-**in class:** map close reading and discussion
-____
+**in class:** map close reading and discussion  
+____ 
 Week 02  
 09 September 2020  
 Defining location: working with spatial data 
