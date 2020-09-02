@@ -18,6 +18,6 @@ Download QGIS3.10
 Download test dataset
 1. Navigate to class GoogleDrive [folder](https://drive.google.com/drive/folders/147egEq5QrEG17u_tENl_mJ21KoLYKBV_)
 2. Familiarize yourself with it
-3. Download the folder `00_getting-oriented`
+3. Download the folder `00_getting-oriented` that is located within the `assignments` folder
 4. Save this in the folder you will use for this course this semester within a folder called `assignments`
 
