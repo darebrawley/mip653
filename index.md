@@ -26,8 +26,7 @@ This course engages with this agency of maps directly in hands-on workshops cove
 ### [Syllabus](/syllabus)
 
 
-
-
+### [Assignment 00](/assignment00/)
 
 
 
