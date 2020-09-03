@@ -13,7 +13,7 @@ Instructor: Dare Brawley
 dare.a.brawley@njit.edu | @darebrawley  
 
 
-### Course Description
+## Course Description
 
 This course provides an introduction to geographic information systems (GIS) and to the use of spatial methods for analyzing and designing urban spaces. 
 
@@ -23,14 +23,14 @@ The thoughtful use of spatial data can reveal previously unseen patterns, changi
 
 This course engages with this agency of maps directly in hands-on workshops covering the technical skills required to use maps as both tools for research and design-based interventions. Likewise the course will focus throughout on fostering a deep understanding of the promises, as well as the limitations of GIS-based methods. 
 
-### [Syllabus](/syllabus)
+## [Syllabus](/syllabus)
 
 
-### Assignment links
+## Assignment links
 
-## [Instructions for map example presentations](/map-examples/)
+#### [Instructions for map example presentations](/map-examples/)
 
-## [Assignment 00](/assignment00/)
+#### [Assignment 00](/assignment00/)
 
 
 
