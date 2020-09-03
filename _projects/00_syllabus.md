@@ -87,7 +87,8 @@ Final project (40%)
 ### Class participation
 Each week students will post two questions related to the week's readings to the discussion board on Canvas by 10pm on Tuesday. When developing questions students should consider connections between multiple texts (either from the current week or prior weeks). The questions should refer to specific parts of the reading (for example through quotation). 
 
-In addition, students will sign up after the first week of classes to bring a map example to class discussion once over the course of the semester. Students will upload an image or link to a map (or atlas) that they wish to discuss with the class, and will then present what they find interesting, intriguing, noteworthy about the map in a 5 minute presentation during class. 
+In addition, students will sign up after the first week of classes to bring a map example to class discussion once over the course of the semester. Students will upload an image or link to a map (or atlas) that they wish to discuss with the class, and will then **briefly** share what they find interesting, intriguing, noteworthy about the map during class (no more than 4 minutes).
+
 The examples presented over the course of the semester will contribute to a shared class resources of visual and thematic precedents. 
 
 ### Mapping assignments
