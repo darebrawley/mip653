@@ -28,7 +28,7 @@ This course engages with this agency of maps directly in hands-on workshops cove
 
 ## Assignment links
 
-#### [Instructions for map example presentations](/map-examples/)
+#### [Map example presentations](/map-examples/)
 
 #### [Assignment 00](/assignment00/)
 
