@@ -5,7 +5,7 @@ team:
 date_visible: 
 image: 
 formats: "formats,formats"
-permalink: /assignment00/
+permalink: /map-examples/
 description: 
 ---
 
