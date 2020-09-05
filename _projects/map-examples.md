@@ -13,7 +13,7 @@ description:
 
 Each week 1-3 people will share a map that interests them with the class. Below are guidelines for these **brief** presentations and a few starting points for places to look for examples. 
 
-By **Tuesday at 10pm** on the week you have [signed up for](https://docs.google.com/spreadsheets/d/1mVdNMDSJeg_5xG_5u6sseNZboA8FTMkofijmNq3ejdE/edit#gid=0) please upload an image or link to a map (or atlas) that you wish to discuss with the class to the [precedents_examples](https://drive.google.com/drive/u/0/folders/1hX2L_SnID3kmbzYb_J2RyfdftPhpK49T) folder. 
+By **Tuesday at 10pm** on the week you have [signed up for](https://docs.google.com/spreadsheets/d/1mVdNMDSJeg_5xG_5u6sseNZboA8FTMkofijmNq3ejdE/edit#gid=0) please upload an image or link to a map (or atlas) that you wish to discuss with the class to the [precedents_examples](https://drive.google.com/drive/u/0/folders/1hX2L_SnID3kmbzYb_J2RyfdftPhpK49T) folder. Please follow these naming conventions exactly:  `20200909_lastname_firstname_title` where the date is the date of the class you will be presenting. 
 
 Map example you choose might:
 -  be related to current events; 
