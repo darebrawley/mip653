@@ -13,39 +13,31 @@ description:
 # Assignment 01 mapping where things are
 
 Due: September 23, 2020
+This assignment is an introduction to basic functions of working with vector spatial data in QGIS. As shown in the outline of the assignment below it consists of three parts. 
 
-This assignment is an introduction to basic functions of working with vector spatial data in QGIS. Topics covered include:
+In part one you will explore property ownership in Newark through basic spatial and attribute queries. In part two you will become familiar with how to manipulate Coordinate reference systems in QGIS. And in part three you will learn basic elements of map layout in QGIS, and will be asked to design a map in the style of a USGS topographc series map.
 
-- adding data
-- inspecting the attribute table of a feature layer
-- creating points from latitude and longitude coordinates
-- selecting by attributes
-- selecting by location
-- setting the project projection & reprojecting data
-- adding basic map elements in the print composer
+Deliverables required for the assignment are outlined below.
+
+* TOC
+{:toc}
 
 ## Assignment Deliverables
 
 To receive credit and feedback on this project please upload the following to canvas by 9/23.
-One .txt file containing answers to the following questions. Please use the format shown below:
 
-Last name, First Name
-Assignment 01
+1. One map of Newark in the style of a USGS Topographic Map. Thoughtfully examine the mapping conventions used in the USGS maps and design a replica of one with your own graphic point of view. Maps must include basic contextual elements (legend, scale, north arrow, data citation) but may be playful or experimental in their graphic approach. Students are encouraged to pick one element from the USGS map and explore/expand on it. Pay attention to line weights, hierarchy of information, and the aesthetics. Students will share their maps at the start of class on 9/23.
 
-How many parcels list an owner address from outside Newark?  
-Your answer
+2. One .txt file containing answers to the following questions. Please use the format shown below:
+    1. How many parcels list an owner address from outside Newark?  
+    Your answer
+    2. How many parcels in Newark's West Ward list an owner address from outside Newark?  
+    Your answer
+    3. How many parcels in Newark's North Ward list an owner address from outside Newark?  
+    Your answer
+    4. How many properties marked as vacant in the 2017 vacancy survey are located on parcels where the owner's address is outside Newark?  
+    Your answer
 
-How many parcels in Newark's West Ward list an owner address from outside Newark?  
-Your answer
-
-How many parcels in Newark's North Ward list an owner address from outside Newark?  
-Your answer
-
-How many properties marked as vacant in the 2017 vacancy survey are located on parcels where the owner's address is outside Newark?  
-Your answer
-
-One map of Newark in the style of a USGS Topographic Map. For this map please consider
-[XXXXXXXXXX]
 File names should follow this naming convention exactly:
 `lastname_firstname_assignment01`
 
@@ -213,56 +205,109 @@ To undo this and return to an appropriate CRS. Using `Project`>`Properties`  the
 
 Remove the 'reprojected' temporary layer
 
-**Note** an alternative way to reproject data is to save a new feature layer and when exporting select a different CRS. For an individual layer select `export` > `save features as` > and choose a different CRS when exporting. 
+**Note** an alternative way to reproject data is to save a new feature layer and when exporting select a different CRS. For an individual layer select `export` > `save features as` > and choose a different CRS when exporting.
 
 ## Part 03: Composing a map
 
-This next section walks you through the basic functions of the print composer in QGIS. For your assignment you will need to turn in a designed map, that copies the style of one of the USGS topographic series maps. Before you begin this section review the example maps from the USGS. Sample maps are saved in the precedents folder on the course GoogleDrive, and also can be downloaded directly for an area you are interested in from the [USGS here](https://ngmdb.usgs.gov/topoview/viewer/#4/40.00/-100.00).
+This next section walks you through the basic functions and features of the print layout QGIS. The print layout in QGIS allows you to design map layouts for presentation or to export into other formats. Moving from the map canvas to the print layout is primarily a shift from an environment where you can perform analysis and constantly change the map scale (zooming in and out etc) to a set of tools for designing a map at a fixed spatial scale and position, depicting a particular set of features.
 
-**Map composition section forthcoming....**
-<!-- 
-20. print composer open
-note relevant portion of the QGIS docs which has an indepth overview of all functionalities is [here]
-21. change page size of print composer 
-22. set scale 1-24000 refers to one map unit is 24000 units on the ground
+For your assignment you will need to turn in a designed map, that imitates the style of one of the USGS topographic series maps. Before you begin this section review the example maps from the USGS. Sample maps are saved in the precedents folder on the course GoogleDrive, and also can be downloaded directly for an area you are interested in from the [USGS here](https://ngmdb.usgs.gov/topoview/viewer/#4/40.00/-100.00).
 
-23. add scale bar
-24. add text scale
-25. add north arrow
-26. add legend
-27. change legend titles
+The next section of the assignment walks you through basic functions and tools to help you accomplish this. However there are many features that will not be covered -- feel free to explore the [QGIS docs](https://docs.qgis.org/3.10/en/docs/user_manual/print_composer/overview_composer.html) for a full list and explanation of the tools and features available.
 
-Add a graticule
-1. using the select move item tool select the map again
-1. item properties 
-2. scroll down to 'grids' section > green + to add a new grid -- name the grid EPSG 3424 (the CRS of the map). 
-3. select modify grid
-4. make these selections: for CRS `EPSG: 3424`; interval `map unit`; x `5000` y `5000`
-5. scroll down to Draw coordinates. select the check box. for Format select `degree, minute` 
-6. leave the grid item properties menu with the blue arrow at the top of the properties menu
-7. create a new grid. name it WGS84. select modify grid make the following selections:
-crs `EPSG: 4326` this is WGS 84 it is a geographic coordinate system. i.e unprojected. 
-interval `map unit`
-x & y as `0.03`
-so that you can distinguish with the other graticule change the color by selecting the Line dropdown menu
-scroll to enable Draw Coordinates. Format as `degree, minute` 
-change the font color to match the color you chose for the lines
-`Grid enabled` toggles visibility for the grid
+Lets begin.
 
-notice difference between the two graticules]
+Click the `New print layout` button in the top tool bar to open a new print layout. In each QGIS project you can have multiple different layouts. Give a name to the layout you are creating.
 
-## Style your map layers
-At this point in the assignment you may either (1) export your map and continue to design it in the software program of your choice (Illustrator is a good option) or (2) use the layer symbology menus for the layers in your map project to modify and design your map. Skip to the appropriate section here based on your choice. 
+### Setting paper size
 
-## A, export map and work in a graphics editing program
-1. adjust the placement of your map within the map window so that has the extents and scale you would like for your final map. 
-2. make note of the extents for your map window (write these down in case you need to reexport a layer later this way your export will be perfectly aligned) 
-3. export your print composer as an SVG
-4. continue to edit and compose in illustrator
+Right click any where on the page that opens, and then select `Page Properties` from the menu that opens.
 
-## B, continue to edit using QGIS 
-1. in your QGIS project edit the layer symbology using the menu within the layer properties panel for each layer
-2. return to the print composer use the refresh view button to view the changes you just made to the map within the print composer -->
+![page properties]
+
+In the item properties panel set the page size as shown below (22"X27" is one of the standard sizes for USGS maps).
+
+### Adding a map to the layout
+
+Use the `add map tool` and then click and drag to create a rectangular map frame. The map visible in the map canvas will appear.
+
+![add map]
+
+Note you can have multiple maps in a single layout. For example you can have a key map depicting the location of your main map in a broader geographic context; or you can have a detail map showing one area at a higher spatial resolution.
+
+### Defining the map scale and extents
+
+The map you are designing in the print layout will have a set spatial scale, and spatial extents. You can set these in the `Item properties` for each map in your layout. The map below is set at a scale of 1:24000, the same as the largest scale USGS Topographic Series maps.
+
+Note: the extents will always be listed in the units of the coordinate reference system set for the map canvas, and will be specified relative to the meridians of that coordinate reference system.
+
+If you plan to use the print layout primarily to export maps to be edited further in a different layout or graphics program then it is good practice to write down the scale and extents exactly so that you can export multiple versions of your map and have and easy time aligning the elements of your map.
+
+![scale extents]
+
+### Adding standard map elements: scale, legend, north arrow
+
+To add a graphic or text scale bar select the `Add scale bar` tool and adjust the options as you see fit. The scale bar is always tied to a specific map in your layout (seen below in the `Item properties` the added scale bar references Map 1) and if you adjust the scale of that map the scale bar will adjust accordingly.
+Graphic:
+![scale bar]
+
+Text:
+![scale bar text]
+
+A north arrow can be added in a similar fashion.
+![north arrow]
+
+As can a legend: 
+
+![legend]
+
+The default legend includes the names of each layer exactly as they appear in the layers panel. These can be manually adjusted. The font and text size for all legend elements can also be adjusted in the `Item properties` menu for the legend. 
+
+![legend adjust]
+
+### Adding a grid
+A grid can help to convey the location of a map within a given coordinate reference system. A map grid displays vertical and horizontal lines at defined intervals of given coordinate reference system. A graticule refers specifically to the display of geographic coordinates (degrees of latitude and longitude). 
+
+A map can have multiple grids and/or a graticule to convey the location of the map across multiple coordinate reference systems. Here we will add a grid for the coordinate reference system of our map (New Jersey's State Plane NAD 1983) as well as a graticule.
+
+Select the map and view its item properties. Scroll to and expand the `Grids` section. Use the green `+` to add a new grid. Name the grid EPSG 3424 (the CRS of the map).
+
+Select modify the grid. And make the following selections: for CRS `EPSG: 3424`; interval `map unit`; x `5000` y `5000`. Scroll down to Draw coordinates. Select the check box. For format select `decimal`. Then leave the grid item properties menu with the blue arrow at the top of the properties menu. \
+
+The map now displays a grid showing the coordinate reference system.
+![grid]
+
+Next create a graticule to overlay on the map. Create a new grid as before. Name it WGS84 (this is a geographic coordinate reference system). Select modify grid make the following selections: CRS `EPSG: 4326`; interval `map unit`; x & y as `0.03`/
+
+So that you can distinguish with the other grid change the color by selecting the `Line` dropdown menu. Scroll to enable Draw Coordinates. Format as `degree, minute`. Change the font color to match the color you chose for the lines
+
+Note: `Grid enabled` at the top of the grid properties menu toggles visibility for the grid.
+![graticule]
+
+Notice difference between the two graticules. Based on our discussion of projections can you interpret these differences?
+
+### Design your map
+
+At this point in the assignment you may either (A) export your map and continue to design it in the software program of your choice (Illustrator is a good option) or (B) use the layer symbology menus for the layers in your map project to modify and design your map. Skip to the appropriate section here based on your choice.
+
+#### A. export map and work in a graphics editing program
+
+Adjust the placement of your map within the map window so that has the extents and scale you would like for your final map.
+
+Make note of the extents for your map window (write these down in case you need to reexport a layer later this way your export will be perfectly aligned)
+
+Export your print composer as an SVG.
+![svg] 
+Continue to edit and design your map in Adobe Illustrator or another graphics editing software.
+
+#### B. continue to edit using QGIS
+
+Return to your QGIS project, and edit the layer symbology using the menu within the layer properties panel for each layer
+
+Return to the print composer use the refresh view button to view the changes you just made to the map within the print composer
+![refresh]
+
+
 
 [new project]: ../assets/images/assignment01/00_start.png
 [add data]: ../assets/images/assignment01/00.png
@@ -289,13 +334,15 @@ At this point in the assignment you may either (1) export your map and continue 
 [reproject]: ../assets/images/assignment01/03_reproject.png
 [reproject project]: ../assets/images/assignment01/05_reproject.png
 [reproject project back]: ../assets/images/assignment01/04_reproject.png
-
-[]: ../assets/images/assignment01/
-[]: ../assets/images/assignment01/
-[]: ../assets/images/assignment01/
-[]: ../assets/images/assignment01/
-[]: ../assets/images/assignment01/
-[]: ../assets/images/assignment01/
-[]: ../assets/images/assignment01/
-[]: ../assets/images/assignment01/
-[]: ../assets/images/assignment01/
+[page properties]: ../assets/images/assignment01/22_print.png
+[add map]: ../assets/images/assignment01/25_print.png
+[scale extents]: ../assets/images/assignment01/27_print.png
+[scale bar]: ../assets/images/assignment01/28_print.png
+[scale bar text]: ../assets/images/assignment01/29_print.png
+[north arrow]: ../assets/images/assignment01/30_print.png
+[legend]: ../assets/images/assignment01/31_print.png
+[legend adjust]: ../assets/images/assignment01/32_print.png
+[grid]: ../assets/images/assignment01/34_print.png
+[graticule]: ../assets/images/assignment01/33_print.png
+[svg]: ../assets/images/assignment01/35_print.png
+[refresh]: ../assets/images/assignment01/36_print.png
