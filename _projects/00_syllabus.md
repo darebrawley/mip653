@@ -197,7 +197,7 @@ Defining location: working with spatial data
 **assignment 01 distributed**
 <!-- - lines, points polygons
     - attributes
-    - table join
+    
     - lab:
         - organizing project folders
         - above applied in QGIS  -->
@@ -234,7 +234,10 @@ ___
 Week 04  
 23 September 2020  
 Data classification, symbology (vector)  
-**due:** Assignment 01: mapping where things are  
+**due:** Assignment 01: mapping where things are
+  <!-- tutorial
+  - table join
+    -->
 **assignment 02 distributed**  
 **readings:**    
 <!-- add in chapter on million dollar blocks?? -->

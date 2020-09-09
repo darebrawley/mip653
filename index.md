@@ -31,8 +31,9 @@ This course engages with this agency of maps directly in hands-on workshops cove
 
 #### [Map example presentations](/map-examples/)
 
-#### [Assignment 00](/assignment00/)
+#### [Assignment 00: download QGIS](/assignment00/)
 
+#### [Assignment 01: Mapping where things are](/assignment01/)
 
 <br>
 
