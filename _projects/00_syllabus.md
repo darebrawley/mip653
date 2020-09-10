@@ -239,10 +239,9 @@ Week 04
 Data classification, symbology (vector)  
 **due:** Assignment 01: mapping where things are
 
-  <!-- tutorial
-  - table join
-    -->
-    
+<!-- tutorial
+  - table join -->
+
 **assignment 02 distributed**  
 **readings:**    
 <!-- add in chapter on million dollar blocks?? -->
