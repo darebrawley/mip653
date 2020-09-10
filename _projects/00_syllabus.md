@@ -194,13 +194,16 @@ Week 02
 09 September 2020  
 Defining location: working with spatial data 
 
-**assignment 01 distributed**
-<!-- - lines, points polygons
+**assignment 01 distributed**  
+
+<!-- 
+    - lines, points polygons
     - attributes
     
     - lab:
         - organizing project folders
-        - above applied in QGIS  -->
+        - above applied in QGIS  
+        -->
 
 **readings:**    
 Wood, Denis, and John Krygier. “Ce n’est Pas Le Monde.”  2011.
@@ -212,7 +215,7 @@ Desimini, Jill, and Charles Waldheim. “Introduction: Projecting the Landscape 
 ___  
 Week 03    
 16 September 2020  
-Projections and coordinate reference systems; map composition 
+Projections and coordinate reference systems; map composition  
 <!--    - lab: 
         - print composer
         - map elements
@@ -235,9 +238,11 @@ Week 04
 23 September 2020  
 Data classification, symbology (vector)  
 **due:** Assignment 01: mapping where things are
+
   <!-- tutorial
   - table join
     -->
+    
 **assignment 02 distributed**  
 **readings:**    
 <!-- add in chapter on million dollar blocks?? -->
