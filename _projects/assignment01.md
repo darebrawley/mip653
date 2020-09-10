@@ -26,17 +26,23 @@ Deliverables required for the assignment are outlined below.
 
 To receive credit and feedback on this project please upload the following to canvas by 9/23.
 
-1. One map of Newark in the style of a USGS Topographic Map. Thoughtfully examine the mapping conventions used in the USGS maps and design a replica of one with your own graphic point of view. Maps must include basic contextual elements (legend, scale, north arrow, data citation) but may be playful or experimental in their graphic approach. Students are encouraged to pick one element from the USGS map and explore/expand on it. Pay attention to line weights, hierarchy of information, and the aesthetics. Students will share their maps at the start of class on 9/23.
+1. One map of Newark in the style of a USGS Topographic Map. Thoughtfully examine the mapping conventions used in the USGS maps and design a replica of one with your own graphic point of view. Maps must include basic contextual elements (legend, scale, north arrow, data citation) but may be playful or experimental in their graphic approach. Students are encouraged to pick one element from the USGS map and explore/expand on it. Pay attention to line weights, hierarchy of information, and the aesthetics. Students will share their maps at the start of class on 9/23. Before you begin this section review the example maps from the USGS. Sample maps are saved in the precedents folder on the course GoogleDrive, and also can be downloaded directly for an area you are interested in from the [USGS here](https://ngmdb.usgs.gov/topoview/viewer/#4/40.00/-100.00).
 
 2. One .txt file containing answers to the following questions. Please use the format shown below:
+    Part 01
     1. How many parcels list an owner address from outside Newark?  
     Your answer
     2. How many parcels in Newark's West Ward list an owner address from outside Newark?  
     Your answer
     3. How many parcels in Newark's North Ward list an owner address from outside Newark?  
     Your answer
-    4. How many properties marked as vacant in the 2017 vacancy survey are located on parcels where the owner's address is outside Newark?  
+    4. How many properties marked as vacant in the 2017 vacancy survey are located on parcels where the owner's address is outside Newark?
+    Your answer 
+    Bonus question: what percentage of the total vacant parcels included in the survey is this?
     Your answer
+
+    Part 03
+    Notice the differences between the grid and the graticule. Based on our discussion of projections can you interpret these differences?
 
 File names should follow this naming convention exactly:
 `lastname_firstname_assignment01`
@@ -54,7 +60,7 @@ When the `Data Source Manager` menu appears select the Source Type as `File` the
 
 You may receive a dialog box prompting you to select a datum transformation. Choose the `Preferred` option and select `Okay`. 
 
-**SAVE** your project.
+**SAVE** your project. Save the project inside the `01_mapping-where-things-are` folder. Title the project `mapping-things.qgz`. 
 
 Follow the same process as above to add the remaining datasets within the data folder for this assignment. Add all of the data sets **except** for the .csv file in the **newark_vacant** folder.
 
@@ -114,6 +120,8 @@ Once you have the `Field calculator` open make the following selections to creat
 Creating a new field turned on **Editing mode** automatically. To save our changes click the `Save edits` button (floppy disk with a pencil), then click the `Toggle editing mode` button (pencil icon) both of these buttons are at the top of the attribtue table window. 
 Click the pencil icon 
 
+**SAVE** your project.
+
 ### Data queries by location
 Now lets use some of the spatial capabilities of GIS to find out: how many tax parcels have owners with non-Newark addresses in the West Ward of Newark? 
 
@@ -137,6 +145,9 @@ How many parcels in the West Ward have owners with a non-Newark address? **Note 
 
 **On your own** repeat the steps above but for North Ward. **Note this answer you will be required to turn it in with your assignment.**
 
+**SAVE** your project.
+
+
 ### Creating a point layer from lat/lon
 Next we will add a new dataset containing the latitude and longitude coordinates for vacant parcels identified by a survey of Newark in 2017. We will investigate which vacant properties have non local owners.
 
@@ -156,6 +167,10 @@ Remove temporary vacant lots dataset: right click on layer name and select `Remo
 
 Clear any/all selections you currently have using the `clear selections` tool.
 
+
+**SAVE** your project.
+
+
 ### Queries part 2: How many vacant properties are on tax parcels with a non-newark owner listed?
 
 Open the attribute table for the Newark parcels layer. We will use the `Not_local` column we created before to construct a quick attribute query. 
@@ -168,6 +183,9 @@ Next we will select the vacant properties that fall within these tax parcels usi
 How many vacant properties have listed owners whose address it outside Newark? **Note this answer you will be required to turn it in with your assignment.** 
 <!-- 365 lots selected  -->
 Bonus question: what percentage of the total vacant parcels included in the survey is this? **Note this answer you will get extra credit if you supply the correct answer.**
+
+
+**SAVE** your project.
 
 ## Part 02: working with coordinate reference systems
 
@@ -207,6 +225,8 @@ Remove the 'reprojected' temporary layer
 
 **Note** an alternative way to reproject data is to save a new feature layer and when exporting select a different CRS. For an individual layer select `export` > `save features as` > and choose a different CRS when exporting.
 
+**SAVE** your project.
+
 ## Part 03: Composing a map
 
 This next section walks you through the basic functions and features of the print layout QGIS. The print layout in QGIS allows you to design map layouts for presentation or to export into other formats. Moving from the map canvas to the print layout is primarily a shift from an environment where you can perform analysis and constantly change the map scale (zooming in and out etc) to a set of tools for designing a map at a fixed spatial scale and position, depicting a particular set of features.
@@ -235,6 +255,8 @@ Use the `add map tool` and then click and drag to create a rectangular map frame
 
 Note you can have multiple maps in a single layout. For example you can have a key map depicting the location of your main map in a broader geographic context; or you can have a detail map showing one area at a higher spatial resolution.
 
+**SAVE** your project.
+
 ### Defining the map scale and extents
 
 The map you are designing in the print layout will have a set spatial scale, and spatial extents. You can set these in the `Item properties` for each map in your layout. The map below is set at a scale of 1:24000, the same as the largest scale USGS Topographic Series maps.
@@ -257,6 +279,8 @@ Text:
 A north arrow can be added in a similar fashion.
 ![north arrow]
 
+**SAVE** your project.
+
 As can a legend: 
 
 ![legend]
@@ -264,6 +288,9 @@ As can a legend:
 The default legend includes the names of each layer exactly as they appear in the layers panel. These can be manually adjusted. The font and text size for all legend elements can also be adjusted in the `Item properties` menu for the legend. 
 
 ![legend adjust]
+
+**SAVE** your project.
+
 
 ### Adding a grid
 A grid can help to convey the location of a map within a given coordinate reference system. A map grid displays vertical and horizontal lines at defined intervals of given coordinate reference system. A graticule refers specifically to the display of geographic coordinates (degrees of latitude and longitude). 
@@ -284,7 +311,10 @@ So that you can distinguish with the other grid change the color by selecting th
 Note: `Grid enabled` at the top of the grid properties menu toggles visibility for the grid.
 ![graticule]
 
-Notice difference between the two graticules. Based on our discussion of projections can you interpret these differences?
+Notice difference between the grid and the graticule. Based on our discussion of projections can you interpret these differences? **Describe what you see and why the two grids are different, you will be required to turn this in**
+
+**SAVE** your project.
+
 
 ### Design your map
 
