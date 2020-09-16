@@ -239,6 +239,8 @@ Week 04
 Data classification, symbology (vector)  
 **due:** Assignment 01: mapping where things are
 
+<!-- lecture should include 
+maps of the same thing symbolized in different ways -->
 <!-- tutorial
   - table join -->
 

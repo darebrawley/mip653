@@ -28,8 +28,8 @@ To receive credit and feedback on this project please upload the following to ca
 
 1. One map of Newark in the style of a USGS Topographic Map. Thoughtfully examine the mapping conventions used in the USGS maps and design a replica of one with your own graphic point of view. Maps must include basic contextual elements (legend, scale, north arrow, data citation) but may be playful or experimental in their graphic approach. Students are encouraged to pick one element from the USGS map and explore/expand on it. Pay attention to line weights, hierarchy of information, and the aesthetics. Students will share their maps at the start of class on 9/23. Before you begin this section review the example maps from the USGS. Sample maps are saved in the precedents folder on the course GoogleDrive, and also can be downloaded directly for an area you are interested in from the [USGS here](https://ngmdb.usgs.gov/topoview/viewer/#4/40.00/-100.00).
 
-2. One .txt file containing answers to the following questions. Please use the format shown below:
-    Part 01
+2. One .txt file containing answers to the following questions. Please use the format shown below:  
+    Part 01  
     1. How many parcels list an owner address from outside Newark?  
     Your answer
     2. How many parcels in Newark's West Ward list an owner address from outside Newark?  
@@ -39,9 +39,9 @@ To receive credit and feedback on this project please upload the following to ca
     4. How many properties marked as vacant in the 2017 vacancy survey are located on parcels where the owner's address is outside Newark?
     Your answer 
     Bonus question: what percentage of the total vacant parcels included in the survey is this?
-    Your answer
+    Your answer  
 
-    Part 03
+    Part 03  
     Notice the differences between the grid and the graticule. Based on our discussion of projections can you interpret these differences?
 
 File names should follow this naming convention exactly:
