@@ -38,11 +38,12 @@ To receive credit and feedback on this project please upload the following to ca
     Your answer
     4. How many properties marked as vacant in the 2017 vacancy survey are located on parcels where the owner's address is outside Newark?
     Your answer 
-    Bonus question: what percentage of the total vacant parcels included in the survey is this?
+
+    Bonus question: what percentage of the total vacant parcels included in the survey is this?  
     Your answer  
 
     Part 03  
-    Notice the differences between the grid and the graticule. Based on our discussion of projections can you interpret these differences?
+    Notice the differences between the grid and the graticule. Based on our discussion of projections can you interpret these differences? Supply 2-3 sentence answer.
 
 File names should follow this naming convention exactly:
 `lastname_firstname_assignment01`
