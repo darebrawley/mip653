@@ -36,9 +36,8 @@ To receive credit and feedback on this project please upload the following to ca
     Your answer
     3. How many parcels in Newark's North Ward list an owner address from outside Newark?  
     Your answer
-    4. How many properties marked as vacant in the 2017 vacancy survey are located on parcels where the owner's address is outside Newark?
+    4. How many properties marked as vacant in the 2017 vacancy survey are located on parcels where the owner's address is outside Newark?  
     Your answer 
-
     Bonus question: what percentage of the total vacant parcels included in the survey is this?  
     Your answer  
 
