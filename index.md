@@ -35,6 +35,8 @@ This course engages with this agency of maps directly in hands-on workshops cove
 
 #### [Assignment 01: Mapping where things are](/assignment01/)
 
+#### [Assignment 02a: Mapping Values and Categories](/assignment02/)
+
 <br>
 
 <br>
