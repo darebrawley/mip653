@@ -15,7 +15,7 @@ Due: October 14, 2020
 **note: Assignment 02b is also due on October 14 and will be distributed on 10/7**
 
 ## Premise of Assignment 02a:  
-In this exercise you will create a series of maps of housing tenure in Newark in order to identify which areas of Newark has the most rental housing. In the [data folder](https://drive.google.com/drive/folders/1Umnt3lFGmh9v5jCiU7Z9i_szKR3vH6Lz?usp=sharing) for this assignment, tabular data on housing tenure by census block from the 2010 Decennial Census (Summary File 1) is available along with census block boundaries for the city of Newark. You will use these two datasets to map where in Newark there is the most rental housing.  
+In this exercise you will create a series of maps of housing tenure in Newark in order to identify which areas of Newark have the most rental housing. In the [data folder](https://drive.google.com/drive/folders/1Umnt3lFGmh9v5jCiU7Z9i_szKR3vH6Lz?usp=sharing) for this assignment, tabular data on housing tenure by census block from the 2010 Decennial Census (Summary File 1) is available along with census block boundaries for the city of Newark. You will use these two datasets to map where in Newark there is the most rental housing.  
 
 ## Assignment 02a Deliverables:  
 
@@ -224,26 +224,26 @@ Please take care with line weights and color choices. These should be designed m
 
 [new project]: ../assets/images/assignment01/00_start.png
 [01]: ../assets/images/assignment02/01.png
-[02]: ../assets/images/assignment02/01.png
-[03]: ../assets/images/assignment02/01.png
-[04]: ../assets/images/assignment02/01.png
-[05]: ../assets/images/assignment02/01.png
-[06]: ../assets/images/assignment02/01.png
-[07]: ../assets/images/assignment02/01.png
-[08]: ../assets/images/assignment02/01.png
-[09]: ../assets/images/assignment02/01.png
-[10]: ../assets/images/assignment02/01.png
-[11]: ../assets/images/assignment02/01.png
-[12]: ../assets/images/assignment02/01.png
-[13]: ../assets/images/assignment02/01.png
-[14]: ../assets/images/assignment02/01.png
-[15]: ../assets/images/assignment02/01.png
-[16]: ../assets/images/assignment02/01.png
-[17]: ../assets/images/assignment02/01.png
-[18]: ../assets/images/assignment02/01.png
-[19]: ../assets/images/assignment02/01.png
-[20]: ../assets/images/assignment02/01.png
-[21]: ../assets/images/assignment02/01.png
+[02]: ../assets/images/assignment02/02.png
+[03]: ../assets/images/assignment02/03.png
+[04]: ../assets/images/assignment02/04.png
+[05]: ../assets/images/assignment02/05.png
+[06]: ../assets/images/assignment02/06.png
+[07]: ../assets/images/assignment02/07.png
+[08]: ../assets/images/assignment02/08.png
+[09]: ../assets/images/assignment02/09.png
+[10]: ../assets/images/assignment02/10.png
+[11]: ../assets/images/assignment02/11.png
+[12]: ../assets/images/assignment02/12.png
+[13]: ../assets/images/assignment02/13.png
+[14]: ../assets/images/assignment02/14.png
+[15]: ../assets/images/assignment02/15.png
+[16]: ../assets/images/assignment02/16.png
+[17]: ../assets/images/assignment02/17.png
+[18]: ../assets/images/assignment02/18.png
+[19]: ../assets/images/assignment02/19.png
+[20]: ../assets/images/assignment02/20.png
+[21]: ../assets/images/assignment02/21.png
 
 [dot_1]: ../assets/images/assignment02/dot_density.gif
 
