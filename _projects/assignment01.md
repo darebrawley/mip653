@@ -376,3 +376,4 @@ Return to the print composer use the refresh view button to view the changes you
 [graticule]: ../assets/images/assignment01/33_print.png
 [svg]: ../assets/images/assignment01/35_print.png
 [refresh]: ../assets/images/assignment01/36_print.png
+

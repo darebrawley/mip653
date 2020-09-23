@@ -306,7 +306,8 @@ Spatial operations with vector data
     - spatial joins, 
     - buffers 
     - geometric operations
-    - MAUP -->
+    - MAUP 
+    - proportional split?-->
 **due:** Assignment 02: mapping categories and values    
 **assignment 03 distributed**    
 
@@ -346,6 +347,7 @@ Week 09
 28 October 2020  
 Density mapping & clusters  
 
+<!-- tutorial should include dysametric mapping and then density calculation -->
 **reading:**  
 Baics, Gergely, and Leah Meisterlin. “Zoning Before Zoning: Land Use and Density in Mid-Nineteenth-Century New York City.”  2016. 
 
