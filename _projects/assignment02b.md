@@ -262,7 +262,7 @@ Beyond false color composites researchers use the spectral signatures for differ
 You can create your specific land use classifications using something called supervised classification. This is beyond the required scope of this assignment but if you are interested in going further please follow the instructions for using the SCP for creating your own land use classification contained in this external tutorial [here](https://www.usgs.gov/core-science-systems/science-analytics-and-synthesis/gap/science/land-cover)
 
 ### For feedback and credit on Assignment 02b part 02 turn in:  
-Download a different landsat scene for some other area (perhaps where you are from, a location you are working on for studio, the main point is that it should be somewhere you are interested in and know something about. Read about false color combinations here and choose a false color composite to highlight some aspect of that location. The false color composite should be chosen so that it supports a visual narrative about that place -- for example you might choose a composite that makes urban areas very bright or that shows agricultural areas very clearly.
+Download a different landsat scene for some other area – perhaps where you are from, a location you are working on for studio, the main point is that it should be somewhere you are interested in and know something about. Read about false color combinations here and choose a false color composite to highlight some aspect of that location. The false color composite should be chosen so that it supports a visual narrative about that place -- for example you might choose a composite that makes urban areas very bright or that shows agricultural areas very clearly.
 
 
 [math01]: ../assets/images/assignment02/math01.png
