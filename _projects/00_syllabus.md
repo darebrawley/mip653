@@ -167,11 +167,12 @@ Learning how to troubleshoot technical issues and locate relevant resources is c
 - screenshots (where applicable) that help to explain the problem 
 - a link to at least one website you consulted for assistance with the issue before writing the email. The [QGIS docs](https://docs.qgis.org/3.10/en/docs/user_manual/index.html) are are good starting place as is [GIS Stack Exchange](https://gis.stackexchange.com/).
 
-
 ____
-# Course schedule
 
-###  1. MAPPING WHERE THINGS ARE
+## Course schedule
+
+### 1. MAPPING WHERE THINGS ARE
+
 <!-- todo: tutorial finished by 9/9 -->
 
 Week 01  
@@ -186,15 +187,14 @@ Introductions, GIS mapping basics
     - software install & troubleshooting
     -  -->
 
-**in class:** map close reading and discussion   
-
+**in class:** map close reading and discussion
 
 ____  
 Week 02  
 09 September 2020  
-Defining location: working with spatial data 
+Defining location: working with spatial data  
 
-**assignment 01 distributed**  
+**assignment 01 distributed**
 
 <!-- 
     - lines, points polygons
@@ -363,7 +363,7 @@ ___
 
 Week 10  
 04 November 2020  
-Proposal presentations & workshop
+Proposal one on one meetings (schedule a time slot)
 <!-- need to decide if they will present proposals -->
 **due:** Final project topic proposal  
 **due:** Assignment 04: mapping proximity and concentration  

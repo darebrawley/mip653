@@ -31,15 +31,15 @@ To receive credit and feedback on this project please upload the following to ca
 2. One .txt file containing answers to the following questions. Please use the format shown below:  
     Part 01  
     1. How many parcels list an owner address from outside Newark?  
-    Your answer
+    Your answer <!-- 12984 is answer -->
     2. How many parcels in Newark's West Ward list an owner address from outside Newark?  
-    Your answer
+    Your answer <!-- 2950 is answer -->
     3. How many parcels in Newark's North Ward list an owner address from outside Newark?  
-    Your answer
+    Your answer <!-- 1515 is answer -->
     4. How many properties marked as vacant in the 2017 vacancy survey are located on parcels where the owner's address is outside Newark?  
-    Your answer 
+    Your answer  <!-- 365 lots selected  -->
     Bonus question: what percentage of the total vacant parcels included in the survey is this?  
-    Your answer  
+    Your answer  <!-- 40.6% of vacant lots  -->
 
     Part 03  
     Notice the differences between the grid and the graticule. Based on our discussion of projections can you interpret these differences? Supply 2-3 sentence answer.
