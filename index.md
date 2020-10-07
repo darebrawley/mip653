@@ -37,6 +37,8 @@ This course engages with this agency of maps directly in hands-on workshops cove
 
 #### [Assignment 02a: Mapping Values and Categories](/assignment02/)
 
+#### [Assignment 02b: Mapping Values and Categories with Rasters](/assignment02b/)
+
 <br>
 
 <br>
