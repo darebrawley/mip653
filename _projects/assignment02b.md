@@ -175,18 +175,12 @@ These are instructions for how to download Landsat satellite imagery via USGS fo
 9. Select `Results`. You should see a number of images for specified dates and paths. Here you can view the footprint of each image. As well as select images for download.
 
 10. Find the images you are interested in downloading.
-  - For this exercise select the images with the following attributes:
-  Image 1:  
-    Acquisition Date: 17-SEP-17  
-    Path: 5  
-    Row: 47  
-  Image 2:  
-    Acquisition Date: 03-OCT-17  
-    Path: 5  
-    Row: 47  
+  
 11. Click on the download icon (looks like a hard drive and a green arrow) for the first image.
 12. In the Download Options menu that will open, select `Level -1 GeoTIFF Data Product`. This is the data set that will include all of the Landsat 8 multispectral bands discussed previously.
+
 ![download]
+
 14. a zip files will download, unzip it, and save in the working directory you are using for your project.
 
 ## Creating False Color Composites
@@ -290,3 +284,4 @@ Download a different landsat scene for some other area – perhaps where you are
 [natural]: ../assets/images/assignment02/satellite09.png
 [435]: ../assets/images/assignment02/satellite14.png
 [infrared]: ../assets/images/assignment02/satellite10.png
+[download]:../assets/images/assignment02/satellite003.png
