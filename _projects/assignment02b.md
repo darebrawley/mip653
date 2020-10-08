@@ -236,7 +236,7 @@ This tool tells the program which band it should map to the red, green, or blue 
 
 Note: to make the image appear more saturated zoom in to a bright-ish area of the image and then click the `Local cumulative cut stretch` button (circled in yellow above)
 
-Further information about band combinations and the kinds of phenomena they make visible can be found [here](../assets/resources/LandsatBandInformation_Berkeley.pdf). Take a look through this webpage and try out combinations that are interesting to you.
+Further information about band combinations and the kinds of phenomena they make visible can be found [here](../assets/resources/LandsatBandInformation_Berkeley.pdf). Take a look through this document and try out combinations that are interesting to you.
 
 A color composite using `3-2-1` for a 'natural color' image:  
 
