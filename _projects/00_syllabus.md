@@ -287,7 +287,7 @@ Couclelis, Helen. “People Manipulate Objects (but Cultivate Fields): Beyond th
 
 Wallace, Tim, Derek Watkins, and John Schwartz. [“A Map of Every Building in America.”](https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html) 2018  
 
-***Skim:*** Brief technical documentation: [Microsoft/USBuildingFootprints. 2018. Microsoft, 2020.](https://github.com/microsoft/USBuildingFootprints.)  
+***Skim:*** Brief technical documentation: [Microsoft/USBuildingFootprints. 2018. Microsoft, 2020.](https://github.com/microsoft/USBuildingFootprints).  
 
 **watch:**   
 [*In Plain Sight*](https://vimeo.com/290575503) by Diller Scofidio + Renfro, Laura Kurgan, Robert Gerard Pietrusko with Columbia Center for Spatial Research at the 2018 U.S. Pavilion.  

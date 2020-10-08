@@ -274,8 +274,8 @@ Download a different landsat scene for some other area – perhaps where you are
 [math06]: ../assets/images/assignment02/math06.png
 [math07]: ../assets/images/assignment02/math07.png
 [satellite12a]: ../assets/images/assignment02/satellite12.png
-[spectrum]: ../assets/images/assignment02/Landsat8_SpectralBands.jpg)
-[compare]: ../assets/images/assignment02/satellite13.png) 
+[spectrum]: ../assets/images/assignment02/Landsat8_SpectralBands.jpg
+[compare]: ../assets/images/assignment02/satellite13.png
 [coordinates]: ../assets/images/assignment02/satellite001.png
 [datasets]: ../assets/images/assignment02/satellite002.png
 [install]: ../assets/images/assignment02/Satellite01.png
