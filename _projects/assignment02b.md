@@ -46,6 +46,10 @@ Please submit:
 - one .txt file including your responses to each of the above questions
 
 
+
+### Data download
+All data for Assignment 02b is available for download [here](https://drive.google.com/drive/u/0/folders/1anXi2mJvjF0y91E5utP2U_sKtJykUDGQ)
+
 ## Part 01: Raster Math & Population Change
 
 In part one you will be introduced to basic operations with the raster calculator to find the difference between two raster datasets.  
