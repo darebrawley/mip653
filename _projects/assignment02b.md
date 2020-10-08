@@ -154,34 +154,7 @@ The Landsat satellite circles the globe on a 16 day cycle. [This page](https://l
 
 For a history of the Landsat Satellite program please see NASA's website [here](https://landsat.gsfc.nasa.gov/about/history/)
 
-This exercise will walk through how to download Landsat data and then how to perform basic tasks with it in QGIS.
-
-### Downloading Landsat satellite images
-
-Landsat satellite data is freely available and can be downloaded via a number of different websites. We will be using the USGS website: [EarthExplorer](https://earthexplorer.usgs.gov/)
-
-These are instructions for how to download Landsat satellite imagery via USGS for future reference. For this assignment landsat scenes were already provided to you, so scroll down to the next section.  
-
-1. Select `Register` and then follow steps to **Register for an EarthExplorer account**
-2. Use the map to zoom in to your area of interest 
-3. In the `Coordinates` box select the `Use Map` button. Coordinates around the area you are viewing will populate into this menu.
-![coordinates]
-4. Select the date range you are interested 
-5. Click through to `Data Sets`
-6. In the `Data Sets` menu open the nested section for `Landsat` and then for `Landsat Collection 1 Level-1`
-7. Check the box next to `Landsat 8 OLI/TIRS c1 Level-1`
-![datasets]
-8. Select `Additional Criteria` we will not make any selections here in this exercise, but note for future reference that you can use this to search only for images with less than a certain percentage of cloud cover.
-9. Select `Results`. You should see a number of images for specified dates and paths. Here you can view the footprint of each image. As well as select images for download.
-
-10. Find the images you are interested in downloading.
-  
-11. Click on the download icon (looks like a hard drive and a green arrow) for the first image.
-12. In the Download Options menu that will open, select `Level -1 GeoTIFF Data Product`. This is the data set that will include all of the Landsat 8 multispectral bands discussed previously.
-
-![download]
-
-14. a zip files will download, unzip it, and save in the working directory you are using for your project.
+This exercise will walk through how to create false color composites using multiple landsat bands IN QGIS and also how to download Landsat data from USGS. 
 
 ## Creating False Color Composites
 
@@ -209,9 +182,9 @@ A new toolbar and dock should have been added to your QGIS window. The are highl
 Open the Semi Automatic Classification Plugin menu by clicking the icon circled in yellow above. 
 ![Preprocessing]
 
-Click on the `Open a file` button (circled above) and navigate to the directory containing the Landsat bands you want to work with. (Choose the folder containing the October 3 Landsat image bundle).
+Click on the `Open a file` button (circled above) and navigate to the directory containing the Landsat bands you want to work with for this example it is `part_b_data`>`raster`>`landsat`. And then first choose the folder containing the October 3 Landsat image bundle `LC08_L1TP_005047_20171003_20171014_01_T1`).
 
-Select all of the files in the folder (bands 2-7). And click Open.  
+Select bands 2-7 in the folder (all of the files with a .tif ending) And click Open.  
 
 You should just have bands 2, 3, 4, 5, 6, 7 in this list. Make sure you have no other bands.
 
@@ -256,7 +229,34 @@ Beyond false color composites researchers use the spectral signatures for differ
 You can create your specific land use classifications using something called supervised classification. This is beyond the required scope of this assignment but if you are interested in going further please follow the instructions for using the SCP for creating your own land use classification contained in this external tutorial [here](https://www.usgs.gov/core-science-systems/science-analytics-and-synthesis/gap/science/land-cover)
 
 ### For feedback and credit on Assignment 02b part 02 turn in:  
-Download a different landsat scene for some other area – perhaps where you are from, a location you are working on for studio, the main point is that it should be somewhere you are interested in and know something about. Read about false color combinations here and choose a false color composite to highlight some aspect of that location. The false color composite should be chosen so that it supports a visual narrative about that place -- for example you might choose a composite that makes urban areas very bright or that shows agricultural areas very clearly.
+Download a different landsat scene (following the instructions below) for some other area – perhaps where you are from, a location you are working on for studio, the main point is that it should be somewhere you are interested in and know something about. Read about false color combinations [here](../assets/resources/LandsatBandInformation_Berkeley.pdf) and choose a false color composite to highlight some aspect of that location. The false color composite should be chosen so that it supports a visual narrative about that place -- for example you might choose a composite that makes urban areas very bright or that shows agricultural areas very clearly.
+
+### Downloading Landsat satellite images
+
+Landsat satellite data is freely available and can be downloaded via a number of different websites. We will be using the USGS website: [EarthExplorer](https://earthexplorer.usgs.gov/)
+
+These are instructions for how to download Landsat satellite imagery via USGS for future reference. For this assignment landsat scenes were already provided to you, so scroll down to the next section.  
+
+1. Select `Register` and then follow steps to **Register for an EarthExplorer account**
+2. Use the map to zoom in to your area of interest 
+3. In the `Coordinates` box select the `Use Map` button. Coordinates around the area you are viewing will populate into this menu.
+![coordinates]
+4. Select the date range you are interested 
+5. Click through to `Data Sets`
+6. In the `Data Sets` menu open the nested section for `Landsat` and then for `Landsat Collection 1 Level-1`
+7. Check the box next to `Landsat 8 OLI/TIRS c1 Level-1`
+![datasets]
+8. Select `Additional Criteria` we will not make any selections here in this exercise, but note for future reference that you can use this to search only for images with less than a certain percentage of cloud cover.
+9. Select `Results`. You should see a number of images for specified dates and paths. Here you can view the footprint of each image. As well as select images for download.
+
+10. Find the images you are interested in downloading.
+  
+11. Click on the download icon (looks like a hard drive and a green arrow) for the first image.
+12. In the Download Options menu that will open, select `Level -1 GeoTIFF Data Product`. This is the data set that will include all of the Landsat 8 multispectral bands discussed previously.
+
+![download]
+
+14. a zip files will download, unzip it, and save in the working directory you are using for your project.
 
 
 [math01]: ../assets/images/assignment02/math01.png
