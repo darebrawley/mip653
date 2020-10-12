@@ -312,19 +312,16 @@ Spatial operations with vector data
 **assignment 03 distributed**    
 
 **readings:**    <!-- add more project examples -->
-McHarg, Ian L. Design with Nature. 1969. [Selections]
-
 Kurgan, Laura, Eric Cadora, Sarah Williams, and David Reinfurt. “The Pattern: Million Dollar Blocks,” 2008.
 
-<!-- TODO SCAN -->
-Armborst, Tobias, Daniel D’Oca, Georgeen Theodore, and Riley Gold. The Arsenal of Exclusion & Inclusion. 2017.[Selections]
+Maantay, Juliana. GIS for the Urban Environment. [part of] "Chapter 9: Methods of Spatial Data Analysis." 2006. 
 
 
 ___
 <br>
 
 #### 3b. MAPPING PROXIMITY AND CONCENTRATION
-<!-- tutorial finished by 10/28 -->
+<!-- tutorial finished by 10/21 -->
 
 Week 08  
 21 October 2020  
