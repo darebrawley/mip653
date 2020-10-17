@@ -325,32 +325,32 @@ ___
 
 Week 08  
 21 October 2020  
+Density mapping & clusters  
+
+**due:** Assignment 03: mapping overlaps, intersections and paths   
+**assignment 04 distributed**   
+
+<!-- tutorial should include dysametric mapping and then density calculation -->
+**reading:**  
+Baics, Gergely, and Leah Meisterlin. “Zoning Before Zoning: Land Use and Density in Mid-Nineteenth-Century New York City.”  2016.  
+
+Additional reading/project example TBD
+
+
+___
+Week 09   
+28 October 2020  
 On the ground distance in networks   
     <!-- tutorial must cover
     - walkshed (https://traveltime.com/blog/isochrone-qgis-plugin-traveltime)
     - topology of data
     - open street map data access -->
-**due:** Assignment 03: mapping overlaps, intersections and paths   
-**assignment 04 distributed**   
+
 
 **reading:**  
 Miller, Harvey J. “Tobler’s First Law and Spatial Analysis.” 2004.
-
 <!-- not sure how good this is, maybe more general one about osm?? -->
 Wilmott, Clancy. “‘Mapping-with’: The Politics of (Counter-)Classification in OpenStreetMap.” 2019.
-
-___
-Week 09   
-28 October 2020  
-Density mapping & clusters  
-
-<!-- tutorial should include dysametric mapping and then density calculation -->
-**reading:**  
-Baics, Gergely, and Leah Meisterlin. “Zoning Before Zoning: Land Use and Density in Mid-Nineteenth-Century New York City.”  2016. 
-
-
-Additional reading/project example TBD
-
 ___
 
 <br>

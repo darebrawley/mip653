@@ -40,28 +40,15 @@ This course engages with this agency of maps directly in hands-on workshops cove
 #### [Assignment 02b: Mapping Values and Categories with Rasters](/assignment02b/)
 
 
-#### Next week: 
-#### 3. MAPPING SPATIAL RELATIONSHIPS
-#### 3a. MAPPING OVERLAPS, INTERSECTIONS, AND PATHS
-<!-- tutorial finished by 10/14 -->
 
-Week 07  
-14 October 2020  
-Spatial operations with vector data  
-<!--lab/tutorial must cover: 
-    - spatial joins, 
-    - buffers 
-    - geometric operations
-    - MAUP 
-    - proportional split?-->
-**due:** [Assignment 02a](/assignment02/) & [Assignment 02b](/assignment02b/): mapping categories and values    
-**assignment 03 distributed**    
+<br>
 
-**readings:**    <!-- add more project examples -->
-Kurgan, Laura, Eric Cadora, Sarah Williams, and David Reinfurt. “The Pattern: Million Dollar Blocks,” 2008.
+<br>
 
-<!-- TODO SCAN -->
-Armborst, Tobias, Daniel D’Oca, Georgeen Theodore, and Riley Gold. The Arsenal of Exclusion & Inclusion. 2017.[Selections]
+<br>
+
+<br>
+
 <br>
 
 <br>
@@ -72,3 +59,4 @@ Armborst, Tobias, Daniel D’Oca, Georgeen Theodore, and Riley Gold. The Arsenal
 
 <br>
 
+<br>
