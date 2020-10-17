@@ -189,7 +189,9 @@ Clear the selected features.
 
 ## Proportional Split Estimation
 
-Now to refine that method we will use a series of geoprocessing steps in a method called proportional split estimation. In this method we will obtain an estimate for the population within 1/4 mile of parks, that takes into account the fact that for many census blocks only a portion of the census block intersects with the buffer around each park. 
+Now to refine that method we will use a series of geoprocessing steps in a method called proportional split estimation. (For further background on this method, see [Schlossberg 2003](https://drive.google.com/open?id=1w8WPgmdsaRU6lZL6lSN-x58VQB0ub-ii))
+
+In this method we will obtain an estimate for the population within 1/4 mile of parks, that takes into account the fact that for many census blocks only a portion of the census block intersects with the buffer around each park.  
 
 We do this by computing the proportion of the total area of the block that falls within the study area (in our case the buffer). We then multiply this by the total population of the block to obtain an estimate of the population within the study area.
 
@@ -206,7 +208,8 @@ The diagram below explains the proportional split methodology that we will execu
 
 Now to implement the above method in QGIS.  
 
-First we'll calculate a new field in the Newark census blocks data layer which will contains the total area of each census block.
+First we'll calculate a new field in the Newark census blocks data layer which will contains the total area of each census block.  
+
 Open the attribute table for the Newark census blocks data layer. Open the `field calculator` (looks like an abacus).  
 
 When the field calculator dialog box opens make the following selections and then click OK.
@@ -260,7 +263,7 @@ Now again use the `show statistical summary` tool to find the total for the "pop
 
 ## Geoprocessing in concept
 
-Once you have completed the above please download [this PDF](../resources/geoprocessing_questions.pdf) with exercises to help you solidify your understanding of geoprocessing operations. In particular the PDF asks you to reason through the impact of each geoprocessing operation on the geometry and/or attribute table. Please annotate/draw on the PDF answering the questions on each page. 
+Once you have completed the above please download [this PDF](../assets/resources/geoprocessing_questions.pdf) with exercises to help you solidify your understanding of geoprocessing operations. In particular the PDF asks you to reason through the impact of each geoprocessing operation on the geometry and/or attribute table. Please annotate/draw on the PDF answering the questions on each page. 
 
 
 
