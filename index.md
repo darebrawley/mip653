@@ -39,6 +39,7 @@ This course engages with this agency of maps directly in hands-on workshops cove
 
 #### [Assignment 02b: Mapping Values and Categories with Rasters](/assignment02b/)
 
+#### [Assignment 03: Mapping Overlaps Intersections and Paths](/assignment03/)
 
 
 <br>

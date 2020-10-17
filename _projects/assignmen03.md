@@ -16,15 +16,15 @@ Due: October 21, 2020
 
 To receive credit and feedback on this project please upload the following to canvas by 10/28
 
-Answers to the following questions in a .txt file:
+1. Answers to the following questions in a .txt file:
 
-1. Which Newark park has the greatest number of schools within 1/4 mile of its boundary?
-2. How many people live within walking distance of a park? And what percentage of Newark's total population is this? (using select by location method) 
-3. What is the total 2010 population of Newark according to this dataset? 
-4. What are the units of the tot_area field you calculated?
-5. How many people live within walking distance of a park? And what percentage of Newark's total population is this? (using proportional split estimation)
+    1. Which Newark park has the greatest number of schools within 1/4 mile of its boundary?
+    2. How many people live within walking distance of a park? And what percentage of Newark's total population is this? (using select by location method) 
+    3. What is the total 2010 population of Newark according to this dataset? 
+    4. What are the units of the tot_area field you calculated?
+    5. How many people live within walking distance of a park? And what percentage of Newark's total population is this? (using proportional split estimation)
 
-A completed [PDF of annotated geoprocessing diagrams](../resources/geoprocessing_questions.pdf).
+2. A copy of this [PDF of geoprocessing diagrams](../resources/geoprocessing_questions.pdf) that you have annotated in response to each question.
 
 File names should follow this naming convention exactly:
 `lastname_firstname_assignment01`
