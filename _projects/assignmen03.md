@@ -24,7 +24,7 @@ To receive credit and feedback on this project please upload the following to ca
     4. What are the units of the tot_area field you calculated?
     5. How many people live within walking distance of a park? And what percentage of Newark's total population is this? (using proportional split estimation)
 
-2. A copy of this [PDF of geoprocessing diagrams](https://drive.google.com/open?id=1wJWB-1k9RAm9RfhTi235vLH8yXiyWhTd) that you have annotated in response to each question. Please complete this portion of the assignment last. Detailed instructions are included at the bottom of this page.
+2. A copy of this [PDF of geoprocessing diagrams](https://drive.google.com/open?id=1wJWB-1k9RAm9RfhTi235vLH8yXiyWhTd) that you have annotated in response to each question. Please complete this portion of the assignment last. Detailed instructions are included at the bottom of this page. (Note you must be logged in to your NJIT email to access)
 
 File names for you .txt file and annotated PDF should follow this naming convention exactly:
 `lastname_firstname_assignment01`
@@ -263,7 +263,7 @@ Now again use the `show statistical summary` tool to find the total for the "pop
 
 ## Geoprocessing in concept
 
-Once you have completed the above please download [this PDF](https://drive.google.com/open?id=1wJWB-1k9RAm9RfhTi235vLH8yXiyWhTd) with exercises to help you solidify your understanding of geoprocessing operations. In particular the PDF asks you to reason through the impact of each geoprocessing operation on the geometry and/or attribute table. Please annotate/draw on the PDF answering the questions on each page. 
+Once you have completed the above please download [this PDF](https://drive.google.com/open?id=1wJWB-1k9RAm9RfhTi235vLH8yXiyWhTd) with exercises to help you solidify your understanding of geoprocessing operations. In particular the PDF asks you to reason through the impact of each geoprocessing operation on the geometry and/or attribute table. Please annotate/draw on the PDF answering the questions on each page. (Note you must be logged in to your NJIT email to access the PDF)
 
 
 
