@@ -37,9 +37,10 @@ In this assignment you will answer two spatial research questions about access t
 - Which park has the greatest number of schools within 1/4 mile? (i.e. which park serves the greatest number of schools?)
 - What percentage of Newark's population lives within walking distance of a park? Where walking distance is defined as within 1/4 mile of the perimeter of any park.
 
-Datasets (download all [here](https://drive.google.com/drive/u/2/folders/1vPd1AYgloTdCzitIAF1aVi0kjqyBa-Is)): 
-- [Newark Parks](http://data.ci.newark.nj.us/en/dataset/newark-parks)
-- [Newark schools]
+Datasets used (download all [here](https://drive.google.com/drive/u/2/folders/1vPd1AYgloTdCzitIAF1aVi0kjqyBa-Is)):  
+
+- Newark Parks
+- Newark schools
 - Population by census block in 2010 
 
 ## Geoprocessing
@@ -92,7 +93,7 @@ Add the datasets for this assignment which you can download [here](https://drive
 Select from the top menu `vector`>`geoprocessing tools`>`buffer` and then make the following selections in the buffer dialogue box to create 1/4 mile buffers around each Newark Park: 
 ![02]
 
-In a new folder called **process** within the **data** folder for this assignment save the results as **parks_quartmi_buffer.geojson**. 
+Create anew folder called **process** within the **data** folder for this assignment. Save the results as **parks_quartmi_buffer.geojson**. 
 Click `Run`. 
 
 You should now see a new polygon feature class added to you map which is buffers of 1/4 mile around each park. 
@@ -105,19 +106,25 @@ If you adjust the layer order to move the parks layer above the buffers you can 
 
 ## Spatial Join
 
-Now we have successfully created a new dataset which shows us the area containing and within 1/4 mile from each park in Newark. To answer our spatial research question **Which Newark park has the greatest number of schools within 1/4 mile of its boundary?** we now need to identify which schools fall within these areas.  
+Now we have successfully created a new dataset which shows us the areas that are within 1/4 mile of each park in Newark (including the park itself).  
 
-To do this we will perform a spatial join. For a conceptual introduction please see Maantay & Zeigler p. 218.  
+To answer our spatial research question **Which Newark park has the greatest number of schools within 1/4 mile of its boundary?** we now need to identify which schools fall within these buffers.  
+
+To do this we will perform a spatial join. **For a conceptual introduction please re-read Maantay & Zeigler p. 218.**
 
 In a spatial join we are using the geometric and geographic relationships between two data layers to associate attribute information from one dataset with the attribute table for the other. In a spatial join, just as in a table join, the order matters and will impact the results of the spatial join.  
 
-Using our two input datasets as an example, if we join the park buffers to the schools would yield the following results (shown as a diagram below):  
+Using our two input datasets as an example, joining the park buffers to the schools would yield the following results (shown as a diagram below):  
 
 ![spatial01]
 
-In the above example the schools are the input layer, and the park buffers are the join layer. The resulting feature class has the same geometry of the school points, and its attribute table contains everything from the school points layer, with additional fields from the park buffers added.  
+In the above example the schools are the **input layer**, and the park buffers are the **join layer**.  
 
-What about the inverse: if we join the schools to the park buffers? In this scenario, as the diagram below illustrates, there are multiple schools within each park buffer. Each park buffer is a single feature and corresponds with exactly one row in its attribute table. So in order to join information about multiple schools to each buffer we must summarize that information. We could take the count, sum, mean, max, first value, last value or other standard summary method.  
+The resulting feature class has the same geometry of the school points, and its attribute table contains everything from the school points layer, with additional fields from the park buffers added.  
+
+What about the inverse: if we join the schools to the park buffers?  
+
+In this scenario, as the diagram below illustrates, there are multiple schools within each park buffer. Each park buffer is a single feature and corresponds with exactly one row in its attribute table. So in order to join information about multiple schools to each buffer we must summarize that information. We could take the count, sum, mean, max, first value, last value or other standard summary method.  
 
 The research question we are trying to answer right now is: **Which Newark park has the greatest number of schools within 1/4 mile of its boundary?** And to answer this we currently need to learn how many schools are within 1/4 mile of each park. Thus we want to take the count of the schools when we perform the spatial join.  
 
@@ -154,7 +161,7 @@ What percentage of Newark's population lives within walking distance of a park? 
 
 Estimating the population within this area is a non-trivial problem. We have data about population however the finest geographic scale that this is released at is the Census block. And Census blocks do not align exactly with the areas within 1/4 mile of each park. 
 
-So we will need to develop a method for estimating, for the proposes of instruction we will compare two different methods: one very rough and one a finer grained way to estimate. First by selecting all of the census blocks which intersect with a buffer for a park we will obtain a very coarse estimate. And then we will refine this using a technique called **proportional split estimation**. 
+So we will need to develop a method for estimating, for the proposes of instruction we will compare two different methods. First by selecting all of the census blocks which intersect with a buffer for a park we will obtain a very coarse estimate. And then we will refine this using a technique called **proportional split estimation**. 
 
 ### Estimating population with select by location
 
@@ -165,7 +172,6 @@ In the first estimation method we will overestimate the total population by sele
 In QGIS  open `Vector` > `Research Tools` > `Select by location`. Make the following selections:
 
 ![09]
-
 
 The results should look something like this (we've given transparency to the park buffers so it is easier to see the selected blocks below). Now to get summary statistics for the census blocks that were selected click the `show summary statistic` button (circled below). 
 
@@ -183,27 +189,30 @@ Clear the selected features.
 
 ## Proportional Split Estimation
 
-Now to refine that method we will use a series of geoprocessing steps in a method called proportional split estimation. In this method we will obtain an estimate for the population within 1/4 mile of parks, that takes into account the fact that for many census blocks only a portion of the census block intersects with the buffer around each park. The diagram below illustrates:  
+Now to refine that method we will use a series of geoprocessing steps in a method called proportional split estimation. In this method we will obtain an estimate for the population within 1/4 mile of parks, that takes into account the fact that for many census blocks only a portion of the census block intersects with the buffer around each park. 
+
+We do this by computing the proportion of the total area of the block that falls within the study area (in our case the buffer). We then multiply this by the total population of the block to obtain an estimate of the population within the study area.
+
+The diagram below illustrates:  
 
 ![proportional_split1]
 
-For the areas where just a portion of the census block overlaps with the park buffer we will estimate the population within the subsections the block by multiplying the total block population by the proportion of the blocks area that falls within the buffer.  
 
-This relies on one key assumption that people are spread evenly across the whole census block (which in reality they are not). It is crucial to keep in mind that this is just an estimate. Its a better estimate than the previous method, but nevertheless it is just an estimate.
+This relies on one key assumption that people are spread evenly across the whole census block (which, of course, in reality they are not). It is crucial to keep in mind that this is just an estimate. Its a better estimate than the previous method, but nevertheless it is just an estimate.
 
-The diagram below explains the proportional split methodology in detail:  
+The diagram below explains the proportional split methodology that we will execute in the preceding steps in detail. Please take a close look at this diagram:  
 
 ![method-2]
 
 Now to implement the above method in QGIS.  
 
 First we'll calculate a new field in the Newark census blocks data layer which will contains the total area of each census block.
-Open the attribute table for the Newark census blocks data layer. Open the `field calculator` (looks like an abacus). 
+Open the attribute table for the Newark census blocks data layer. Open the `field calculator` (looks like an abacus).  
 
 When the field calculator dialog box opens make the following selections and then click OK.
 ![13]
 
-There should be a new field in the attribute table called `tot_area` with the area for each census block. 
+There should be a new field in the attribute table called `tot_area` with the area for each census block.  
 ![14]
 What are the units for the area that was calculated?(hint: it is the units that are used by the coordinate reference system of the data layer). 
 
