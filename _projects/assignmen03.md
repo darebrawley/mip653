@@ -24,7 +24,7 @@ To receive credit and feedback on this project please upload the following to ca
     4. What are the units of the tot_area field you calculated?
     5. How many people live within walking distance of a park? And what percentage of Newark's total population is this? (using proportional split estimation)
 
-2. A copy of this [PDF of geoprocessing diagrams](../resources/geoprocessing_questions.pdf) that you have annotated in response to each question.
+2. A copy of this [PDF of geoprocessing diagrams](..assets/resources/geoprocessing_questions.pdf) that you have annotated in response to each question.
 
 File names should follow this naming convention exactly:
 `lastname_firstname_assignment01`
