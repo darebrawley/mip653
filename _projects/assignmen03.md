@@ -252,7 +252,7 @@ Now we will calculate what proportion of the original block area the new area of
 A new field should be added to the attribute table called "proportion_area". Now we will use this to estimate the proportion of the population of each full census block that lives within each census block portion.  
 
 Open the field calculator again and make the following selections, then click OK.  
-![22.png]
+![22]
 
 The attribute table should again have a new field ("pop_estimate") added: 
 ![23]

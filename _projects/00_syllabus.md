@@ -334,7 +334,6 @@ Density mapping & clusters
 **reading:**  
 Baics, Gergely, and Leah Meisterlin. “Zoning Before Zoning: Land Use and Density in Mid-Nineteenth-Century New York City.”  2016.  
 
-Additional reading/project example TBD
 
 
 ___
