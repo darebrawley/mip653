@@ -80,7 +80,7 @@ Repeat the above steps to calculate the density of contaminated sites for each c
 
 Next you will visualize concentrations of contaminated sites using a heat map or kernel density map. 
 
-This is a raster based method for visualizing density of a phenomena across an area. As described in class this is a method whose results are highly dependent on the parameters you choose. Depending on parameters a kernel density map of the same data can look wildly different. The value of a kernel density map is primarily in visualization and one goal for this component of the assignment is to make you very suspicious of 'heat maps' which you encounter from other sources. 
+This is a raster based method for visualizing density of a phenomena across an area. As described in class this is a method whose results are highly dependent on the parameters you choose. Depending on parameters a kernel density map of the same data can look wildly different. The value of a kernel density map is primarily in visualization (not numeric output). One goal for this component of the assignment is to make you very suspicious of 'heat maps' which you encounter from other sources. 
 
 In creating a kernel density there are two main parameters: 
 
@@ -103,7 +103,7 @@ Experiment with different search radii and cell sizes (perhaps doing research on
 
 ### Symbology & Map Composition
 
-Symbolize both the tracts and the blocks as choropleth maps using a manual classification scheme based on natural breaks. Make sure to use the same breaks in the data for both maps to allow for comparison between the two maps.
+Symbolize both the tracts and the blocks as choropleth maps using a manual classification scheme based on natural breaks. **Make sure to use the same breaks in the data for both maps to allow for comparison between the two maps.**
 
 Use a single band pseudocolor ramp to visualize your chosen kernel density map.
 

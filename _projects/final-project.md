@@ -5,13 +5,13 @@ team:
 date_visible: 
 image: 
 formats: "formats,formats"
-permalink: /assignment03/
+permalink: /final-project/
 description: 
 ---
 
 
 # Final project 
-For your final project you will develop a research project that uses mapping project that supports or researches some aspect of the Newark Forward plan. Students will be asked to focus in particular on the plan’s consideration of Housing, Environmental Sustainability, and Inclusive Development. A detailed assignment will be distributed midway through the semester. 
+For your final project you will develop a research project that uses mapping project that supports or researches some aspect of  [Newark Forward: A blueprint for Equitable Growth and Opportunity in Newark](https://www.newarknj.gov/news/newark-forward-report). Students will be asked to focus in particular on the plan’s consideration of Housing, Environmental Sustainability, and Inclusive Development. A detailed assignment will be distributed midway through the semester. 
 
 Broadly, students will devise a project of their own interest that may either be research-focused (answering a specific spatial research question for which the answer is not known) or narrative-driven (telling a story about a place/set of conditions to a particular audience). A list of topics will be distributed that can serve as possible starting points, and might include:  
 
