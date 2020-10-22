@@ -16,7 +16,15 @@ In this assignment you will work with two new geographic concepts: proximity and
 You will be introduced to multiple analytical methods through a series of examples related to the geographies of contaminated sites in Newark and surrounding counties. Building on skills encountered in Assignment 03 you will add additional analytical methods to your arsenal. As this is the last weekly assignment of the semester you will be required to execute skills covered in previous assignments on your own with fewer step by step instructions.
 
 ## Deliverables 
-Upload answers to numbered questions included throughout the assignment in bold and map composition following requirements described in "Symbology & Map Composition" section to canvas by **11/4**. Text responses should be saved as a .txt file, and maps as .pdf, .jpg, or .png files. Use the naming convention: 
+Upload answers to numbered questions (these appear throughout the text and are reproduced here) and your map composition that follows requirements described in the "Symbology & Map Composition" section to canvas by **11/4**.  
+
+Questions:  
+
+1. **What are the linear units of the census tract layer?**
+2. **Why does the formula divide the area given by the geometry of the data layer by 43560?** (hint: this is related to converting from the units of the census tract layer to acres)
+3. **In your own words, what is the Modifiable Areal Unit Problem? And how is it relevant to the density maps you have produced here?**
+
+Text responses should be saved as a .txt file, and maps as .pdf, .jpg, or .png files. Use the naming convention: 
 `lastname_firstname_assignment04`
 
 Deliverables for part b (also due 11/4 will be posted by 10/28).
@@ -63,7 +71,7 @@ Use the field calculator to add a new field that contains the area of each censu
 
 1. **What are the linear units of the census tract layer?**
 2. **Why does the formula divide the area given by the geometry of the data layer by 43560?** (hint: this is related to converting from the units of the census tract layer to acres)
-
+3. **In your own words, what is the Modifiable Areal Unit Problem? And how is it relevant to the density maps you have produced here?**
 ![04]
 
 The attribute table should have a new column added: 

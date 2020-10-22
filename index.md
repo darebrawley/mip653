@@ -42,10 +42,10 @@ This course engages with this agency of maps directly in hands-on workshops cove
 #### [Assignment 03: Mapping Overlaps Intersections and Paths](/assignment03/)
 
 #### [Assignment 04: Mapping Proximity and Concentration](/assignment04/)
-
+<!-- 
 ## Final Project
 
-#### [Topic Proposal](/final-project/)
+#### [Topic Proposal](/final-project/) -->
 <br>
 
 <br>
