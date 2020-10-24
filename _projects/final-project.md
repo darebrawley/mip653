@@ -29,13 +29,15 @@ The project will require students to develop a proposal, design a methodology, a
 
 ## Topic proposal
 
+**Please submit the following on Canvas by class time on 11/4** 
+
 Review the Newark Forward plan and its recommendations. Get familiar with the topics covered and the specific recommendations. Begin to think through: what topics from the plan are most interesting to you? where do topic and/or recommendations overlap with previous projects you've done? Either thematically or in terms of the area of Newark that they cover? Do you want to produce a research project or a narrative atlas? 
 
 Decide on a preliminary topic and write up a proposal that has the following sections: 
 
-- General explanation of research topic (1 paragraph)
+- General explanation of research topic (1-2 paragraphs)
 - Preliminary spatial research question (more info about this on 10/28)
 - Statement about whether you would like the final form of your project to be a research report, or a narrative atlas
 - List of datasets that you think you will need to use, identify which ones you already have (with links) and which you might need help to find
-
+- Bibliography with at least three sources aside from the Newark Forward plan relevant to your chosen topic. 
 
