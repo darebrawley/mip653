@@ -95,7 +95,17 @@ In creating a kernel density there are two main parameters:
 - the search radius from each feature
 - cell size of the output raster
 
+![kernel1]
 You can think of the search radius as a kind of 'zone of influence' for each feature. Thus this radius should be chosen with some knowledge of the local geography and the impact of the feature. In other words, for the case of our example how far away from contaminated site do I need to be before it no longer has any effect on me. 
+
+For each point a smooth surface is fitted over the point which is at its maximum above the point and reduces in value as it approaches the specified search radius. At the radius it is zero. This is illustrated in the diagram below: 
+![kernel2]
+
+The value for each output kernel density raster cell is the sum of the values for each kernel surface at the centroid of the cell: 
+
+![kernel3]
+
+Now to execute this in QGIS:
 
 In the `Processing Toolbox` under `Interpolation` open the `Heatmap (Kernel Density Estimation)` tool. Make the following selections and save your output raster with a file name that indicates the search radius and cell size in the **processed** folder for this assignment (i.e. `contam_r10007_p40ft.tif`). 
 
@@ -144,3 +154,6 @@ Will be added in advance of class on 10/28
 [06]: ../assets/images/assignment04/06.png
 [07]: ../assets/images/assignment04/07.png
 [08]: ../assets/images/assignment04/08.png
+[kernel1]: ../assets/images/assignment04/kernel1.png
+[kernel2]: ../assets/images/assignment04/kernel2.png
+[kernel3]: ../assets/images/assignment04/kernel3.png
