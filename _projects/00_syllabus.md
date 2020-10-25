@@ -328,9 +328,10 @@ Week 08
 Density mapping & clusters  
 
 **due:** Assignment 03: mapping overlaps, intersections and paths   
-**assignment 04 distributed**   
+**[assignment 04 distributed](../assignment04)**   
+**[final project topic proposal distributed](../final-project/)**  
 
-<!-- tutorial should include dysametric mapping and then density calculation -->
+
 **reading:**  
 Baics, Gergely, and Leah Meisterlin. “Zoning Before Zoning: Land Use and Density in Mid-Nineteenth-Century New York City.”  2016.  
 
@@ -346,7 +347,8 @@ On the ground distance in networks
     - open street map data access -->
 
 
-**reading:**  
+**reading is optional this week:**  
+
 Miller, Harvey J. “Tobler’s First Law and Spatial Analysis.” 2004.
 <!-- not sure how good this is, maybe more general one about osm?? -->
 Wilmott, Clancy. “‘Mapping-with’: The Politics of (Counter-)Classification in OpenStreetMap.” 2019.
@@ -359,7 +361,7 @@ ___
 
 Week 10  
 04 November 2020  
-Proposal one on one meetings (schedule a time slot)
+Proposal peer workshops  
 <!-- need to decide if they will present proposals -->
 **due:** Final project topic proposal  
 **due:** Assignment 04: mapping proximity and concentration  
@@ -380,6 +382,9 @@ Desk crits
 
 **due:** revised methods, preliminary maps   
 
+___
+25 November 2020
+**no class** (Friday Classes meet on Wednesday this week)
 ___  
 
 Week 13    
