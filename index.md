@@ -45,7 +45,8 @@ This course engages with this agency of maps directly in hands-on workshops cove
 
 ## Final Project
 
-#### [Topic Proposal](/final-project/)
+#### [General Description & Topic Proposal Detailed Assignment](/final-project/)
+
 <br>
 
 <br>
