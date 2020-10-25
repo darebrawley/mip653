@@ -11,11 +11,12 @@ description:
 
 # Assignment 04: Mapping Proximity and Concentration
 
-In this assignment you will work with two new geographic concepts: proximity and concentration. 
+In this assignment you will work with two new geographic concepts: proximity and concentration.  
 
 You will be introduced to multiple analytical methods through a series of examples related to the geographies of contaminated sites in Newark and surrounding counties. Building on skills encountered in Assignment 03 you will add additional analytical methods to your arsenal. As this is the last weekly assignment of the semester you will be required to execute skills covered in previous assignments on your own with fewer step by step instructions.
 
-## Deliverables 
+## Deliverables
+
 Upload answers to numbered questions (these appear throughout the text and are reproduced here) and your map composition that follows requirements described in the "Symbology & Map Composition" section to canvas by **11/4**.  
 
 Questions:  
@@ -24,7 +25,7 @@ Questions:
 2. **Why does the formula divide the area given by the geometry of the data layer by 43560?** (hint: this is related to converting from the units of the census tract layer to acres)
 3. **In your own words, what is the Modifiable Areal Unit Problem? And how is it relevant to the density maps you have produced here?**
 
-Text responses should be saved as a .txt file, and maps as .pdf, .jpg, or .png files. Use the naming convention: 
+Text responses should be saved as a .txt file, and maps as .pdf, .jpg, or .png files. Use the naming convention:  
 `lastname_firstname_assignment04`
 
 Deliverables for part b (also due 11/4 will be posted by 10/28).
@@ -32,7 +33,6 @@ Deliverables for part b (also due 11/4 will be posted by 10/28).
 ## Data download
 
 Before you begin download the required data from the course Google Drive Folder [here](https://drive.google.com/open?id=1xSRKJG7sPA-kH1GkRQu851hkqRtvJr-o)
-
 
 ## Part A: Density of Contaminated sites
 
@@ -42,8 +42,7 @@ In part A you will use three different methods for calculating the density of [K
 - Density of sites by census tract for Newark
 - Kernel density for sites in Essex, Union, and Hudson Counties
 
-In conducting this comparison you will experience first hand the impacts of the modifiable areal unit problem discussed in class. 
-
+In conducting this comparison you will experience first hand the impacts of the modifiable areal unit problem discussed in class.
 
 Add the datasets that will be used for part A of this assignment:
 
@@ -99,6 +98,7 @@ In creating a kernel density there are two main parameters:
 You can think of the search radius as a kind of 'zone of influence' for each feature. Thus this radius should be chosen with some knowledge of the local geography and the impact of the feature. In other words, for the case of our example how far away from contaminated site do I need to be before it no longer has any effect on me. 
 
 For each point a smooth surface is fitted over the point which is at its maximum above the point and reduces in value as it approaches the specified search radius. At the radius it is zero. This is illustrated in the diagram below: 
+
 ![kernel2]
 
 The value for each output kernel density raster cell is the sum of the values for each kernel surface at the centroid of the cell: 
@@ -125,7 +125,7 @@ Symbolize both the tracts and the blocks as choropleth maps using a manual class
 
 Use a single band pseudocolor ramp to visualize your chosen kernel density map.
 
-Create a single map composition with three maps that shows the density of contaminated sites by block and by tract side by side. Use the same geographic extents and scale for each map 
+Create a single map composition with three maps that shows the density of contaminated sites by block, by tract, and with a kernel density. Use the same geographic extents and scale for each map 
 
 Include on your map composition:  
 
