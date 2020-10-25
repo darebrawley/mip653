@@ -119,7 +119,7 @@ Below are a selection of examples for graphic, methodological, and narrative app
 
 [Shelton, Taylor. “Rethinking the RECAP: Mapping the Relational Geographies of Concentrated Poverty and Affluence in Lexington, Kentucky.” 2018.](https://drive.google.com/open?id=14RvglnIXTxb4mPIcZmOzp09E-uRNHWwV) 
 
-- The article length format doesn't apply here, however Shelton's analysis is a great example of a specific spatial research question. 
+- The article length format doesn't apply here, however Shelton's analysis is a great example of a project that addresses a specific spatial research question 
 
 [Graziani, Terra, Joel Montano, Ananya Roy, and Pamela Stephens. 2020. Who Profits from Crisis? Housing Grabs in Time of Recovery.](https://challengeinequality.luskin.ucla.edu/2020/10/16/who-profits-from-crisis/)  
 
