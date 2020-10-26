@@ -13,7 +13,7 @@ description:
 
 For a full assignment description please see [this page](../final-project/)
 
-## Precedents
+## Precedents for graphic, methodological, and narrative approaches
 
 ### Narrative atlas
 

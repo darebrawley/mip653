@@ -88,5 +88,5 @@ Decide on a preliminary topic and write up a proposal that has the following sec
 
 ## Precedents
 
-As you work to develop your project please take a look at a few of these projects chosen as examples for graphic, methodological, and narrative approaches. 
+As you work to develop your project proposal and project please take a look at a few of [these projects](../final-project-precedents/) chosen as examples for graphic, methodological, and/or narrative approaches.  
 
