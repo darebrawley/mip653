@@ -9,7 +9,7 @@ baseurl: "/" # the subpath of your site, replace with the name of the github rep
 url: "" # the base hostname & protocol for your site, e.g. http://github-username.io
 
 title: MIP 652 Geographic Information Systems
-date: 2020
+date: Fall 2020
 externallink:  #can include an external url here
 description:  >- # this means to ignore newlines until "baseurl:"
 
