@@ -43,6 +43,9 @@ This course engages with this agency of maps directly in hands-on workshops cove
 
 #### [Assignment 04: Mapping Proximity and Concentration](/assignment04/)
 
+<br>
+<br>
+
 ## Final Project
 
 #### [General Description & Topic Proposal Detailed Assignment](/final-project/)
