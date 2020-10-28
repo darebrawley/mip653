@@ -16,19 +16,23 @@ In this assignment you will work with two new geographic concepts: proximity and
 You will be introduced to multiple analytical methods through a series of examples related to the geographies of contaminated sites in Newark and surrounding counties. Building on skills encountered in Assignment 03 you will add additional analytical methods to your arsenal. As this is the last weekly assignment of the semester you will be required to execute skills covered in previous assignments on your own with fewer step by step instructions.
 
 ## Deliverables
-
+ 
 Upload answers to numbered questions (these appear throughout the text and are reproduced here) and your map composition that follows requirements described in the "Symbology & Map Composition" section to canvas by **11/4**.  
 
 Questions:  
-
+Part A:  
 1. **What are the linear units of the census tract layer?**
 2. **Why does the formula divide the area given by the geometry of the data layer by 43560?** (hint: this is related to converting from the units of the census tract layer to acres)
 3. **In your own words, what is the Modifiable Areal Unit Problem? And how is it relevant to the density maps you have produced here?**
 
+Part B:
+4. How many buildings are within 1/4 mile on the ground walking distance of the Diamond Alkali Company superfund site?
+
+For part A map, please follow the instructions in the "Symbology & Map Composition" section. For part B please upload a screenshot of the results of your shortest path analysis (this does not need to be a designed map composition but should show the shortest path routes clearly). 
+
 Text responses should be saved as a .txt file, and maps as .pdf, .jpg, or .png files. Use the naming convention:  
 `lastname_firstname_assignment04`
 
-Deliverables for part b (also due 11/4 will be posted by 10/28).
 
 ## Data download
 
@@ -137,11 +141,104 @@ Include on your map composition:
 - layers to give context to your map reader from any of the previous assignments (roads, building footprints, etc)
 
 
-## Part B: Proximity to Contaminated sites  
+## Part B: Proximity & Network Analysis 
 
-Will be added in advance of class on 10/28
+In part b of this assignment you will use Network Analysis tools to answer the following questions: 
+
+**How many buildings are within 1/4 mile on the ground walking distance of the Diamond Alkali Company superfund site?**
+
+**What are the shortest path distances from the site to each school in Newark?**
 
 
+### Setup: 
+Download datasets for part b of assignment 4 [here](). Save them in the data folder for assignment 4. 
+
+Add data: 
+- NJDEP Contaminated Sites
+- New Jersey Roads 
+- Newark Census Tracts 
+- Newark Schools
+- Newark Buildings
+
+Install two plugins that will be needed for the network analysis portion: 
+- QNEAT3
+- QuickOSM 
+
+To install these plugins navigate to `Plugins`>`Manage and Install Plugins` in the top navigation menu. 
+![09]
+
+Use search bar to look up `QNEAT3`. Then click `Install plugin`, 
+do the same for `QuickOSM`.
+
+![10]
+
+### Diamond Alkali Company & Nearby Buildings
+
+First you will answer the question: **How many buildings are within 1/4 mile on the ground walking distance of the Diamond Alkali Company superfund site?** 
+<!-- 487 buildings -->
+
+You can read more about [superfund designations here](https://www.epa.gov/superfund) and about the history of the Diamond Alkali site specifically [here](https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=0200613). 
+
+
+The steps you will execute to answer the above question are:  
+
+1. Select just the Diamond Alkali Company superfund site from the `contaminates_essex_hudson-union` layer 
+2. Save this as a new dataset with a single point
+3. Compute the Iso-Area around the site using the QNEAT3 Iso-Area tool
+4. Select buildings within the 1/4 mile network Iso-Area 
+
+Lets begin.  
+
+In the `ontaminates_essex_hudson-union` layer use select by location or select by attributes to find just the Diamond Alkali Company superfund site. The `PI_NAME` field is the site name (DIAMOND ALKALI COMPANY).  
+
+![11]  
+
+Save this point as a new geojson file. Click on the layer in the layers panel and then `export selected` to save a new dataset containing a single point feature for the Diamond Alkali Company site. Save it in the data folder for the project and give it a reasonable file name. 
+
+![12]
+
+Now you will compute the Iso-Area around the site using QNEAT3 Iso-Area tool. 
+
+Open the `Processing Toolbox` (Under `Processing`>`ProcessingToolbox` in the top navigation menu).
+
+Then scroll down to the `QNEAT3` set of tools:
+![13]
+Click on the `Iso-Area as Polygons (from Layer)` tool. Make the selections shown below. Save the output polygon layer as **diamond_quart_iso-area.geojson** within in the **Processed** folder within the **data** folder for this assignment.
+
+Click `Run`. The network analysis algorithm should begin processing. This may take a few minutes. 
+
+Once it as completed you will see two new layers added to your map. 
+
+If it isn't already move the iso-area polygons on top of the interpolation raster. 
+
+![14]
+These polygons represent the area that is reachable by traveling 1/4 mile on roads from the Diamond Alkali Company site. 
+
+
+Now for the final component of the methodology to answer **How many buildings are within 1/4 mile on the ground walking distance of the Diamond Alkali Company superfund site?** 
+
+Use select by location to select the Newark buildings that fall within 1/4 mile Iso-Area from the site. How many buildings are there? 
+<!-- 487 buildings -->
+
+### Shortest distance from Diamond Alkali Company to Schools
+
+Our second question is: 
+**What are the shortest path distances from the site to each school in Newark?**
+
+You will use the `shortest path (point to layer)` tool to answer this question: 
+
+![15]
+
+This tool is one of the built in network analysis tools that comes with QGIS3.10. 
+
+Make the following selections: 
+![16]
+
+
+The results should look like this: 
+![17]
+
+Upload a screenshot of the results with your submission on Canvas (this does not need to be a designed map composition but should show the shortest path routes clearly). 
 
 
 
@@ -157,3 +254,12 @@ Will be added in advance of class on 10/28
 [kernel1]: ../assets/images/assignment04/kernel1.png
 [kernel2]: ../assets/images/assignment04/kernel2.png
 [kernel3]: ../assets/images/assignment04/kernel3.png
+[09]: ../assets/images/assignment04/09.png
+[10]: ../assets/images/assignment04/10.png
+[11]: ../assets/images/assignment04/11.png
+[12]: ../assets/images/assignment04/12.png
+[13]: ../assets/images/assignment04/13.png
+[14]: ../assets/images/assignment04/14.png
+[15]: ../assets/images/assignment04/15.png
+[16]: ../assets/images/assignment04/16.gif
+[17]: ../assets/images/assignment04/17.png
