@@ -160,15 +160,13 @@ Add data:
 - Newark Schools
 - Newark Buildings
 
-Install two plugins that will be needed for the network analysis portion: 
+Install a plugins that will be needed for the network analysis portion: 
 - QNEAT3
-- QuickOSM 
 
-To install these plugins navigate to `Plugins`>`Manage and Install Plugins` in the top navigation menu. 
+To install this plugin navigate to `Plugins`>`Manage and Install Plugins` in the top navigation menu. 
 ![09]
 
 Use search bar to look up `QNEAT3`. Then click `Install plugin`, 
-do the same for `QuickOSM`.
 
 ![10]
 
