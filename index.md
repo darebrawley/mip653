@@ -50,7 +50,7 @@ This course engages with this agency of maps directly in hands-on workshops cove
 
 #### [General Description & Topic Proposal Detailed Assignment](/final-project/)  Due 11/4
 
-#### [Examples/Precedents]((/final-project-precedents/))  
+#### [Examples/Precedents](/final-project-precedents/)
 
 <br>
 
