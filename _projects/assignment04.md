@@ -151,12 +151,12 @@ In part b of this assignment you will use Network Analysis tools to answer the f
 
 
 ### Setup: 
-Download datasets for part b of assignment 4 [here](). Save them in the data folder for assignment 4. 
+Make sure you have downloaded all datasets required for  assignment 4 [here](https://drive.google.com/open?id=1yU82-tqWd_rDghZWp1in8GM_PdPVa-Mv). (`Newark Schools` and `Newark_area_roads` are two datasets added since 10/21 that you will specifically need for the second part of the assignment. If you downloaded the assignment previously please download these datasets and save them in the data folder for assignment 4.)  
 
-Add data: 
-- NJDEP Contaminated Sites
-- New Jersey Roads 
-- Newark Census Tracts 
+Add data:  
+
+- NJDEP Contaminated Sites (you can review the metadata [here](https://gisdata-njdep.opendata.arcgis.com/datasets/known-contaminated-site-list-for-new-jersey?geometry=-81.231%2C38.665%2C-68.268%2C41.604&selectedAttribute=REM_LEVEL))
+- Newark Area Roads 
 - Newark Schools
 - Newark Buildings
 
