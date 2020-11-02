@@ -84,6 +84,11 @@ Decide on a preliminary topic and write up a proposal that has the following sec
 - List of datasets that you think you will need to use, identify which ones you already have (with links) and which you might need help to find
 - Bibliography with at least three sources aside from the Newark Forward plan relevant to your chosen topic. 
 
+## Resources for Finding Datasets 
+
+This [Rutgers Library GIS Reference Guide](https://libguides.rutgers.edu/c.php?g=336835&p=2267524) is a great starting point for finding New Jersey specific GIS data sources.  
+
+You can access Census demographic information via [data.census.gov](https://data.census.gov/cedsci/). These [video tutorials](https://www.census.gov/data/academy/webinars/2019/navigating-census-data.html) offer guidance on the web interface.
 
 
 ## Precedents

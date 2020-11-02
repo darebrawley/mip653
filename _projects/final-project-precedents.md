@@ -21,6 +21,10 @@ For a full assignment description please see [this page](../final-project/)
 
 - This is an example of a narrative-driven mapping project which also has a strong graphic approach. It is an online-format report with animations beyond the scope of what is needed for this assignment. However still offers a helpful framing and graphic style.
 
+[Badger, Emily, and Quoctrung Bui. 2019. “Cities Start to Question an American Ideal: A House With a Yard on Every Lot (Published 2019).” The New York Times, June 18, 2019, sec. The Upshot.](https://www.nytimes.com/interactive/2019/06/18/upshot/cities-across-america-question-single-family-zoning.html)
+- Study of zoning across multiple cities in the U.S. 
+
+
 [Fleming, Billy. 2019. “The 2100 Project: An Atlas for the Green New Deal” The McHarg Center.](https://mcharg.upenn.edu/2100-project-atlas-green-new-deal)  
 
 - This project covers topics and datasets related to themes from the Green New Deal. It is less strong on a clear narrative, however serves as a perhaps helpful starting point for those interested in topics related to environmental concerns.  
