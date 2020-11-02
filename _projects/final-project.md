@@ -88,7 +88,7 @@ Decide on a preliminary topic and write up a proposal that has the following sec
 
 This [Rutgers Library GIS Reference Guide](https://libguides.rutgers.edu/c.php?g=336835&p=2267524) is a great starting point for finding New Jersey specific GIS data sources.  
 
-You can access Census demographic information via [data.census.gov](https://data.census.gov/cedsci/). These [video tutorials](https://www.census.gov/data/academy/webinars/2019/navigating-census-data.html) offer guidance on the web interface.
+You can access Census demographic and socioeconomic information (i.e. income, age, sex, race, housing tenure, etc) via [data.census.gov](https://data.census.gov/cedsci/). These [video tutorials](https://www.census.gov/data/academy/webinars/2019/navigating-census-data.html) offer guidance on the web interface.
 
 
 ## Precedents
