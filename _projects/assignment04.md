@@ -202,7 +202,7 @@ Open the `Processing Toolbox` (Under `Processing`>`ProcessingToolbox` in the top
 Then scroll down to the `QNEAT3` set of tools:
 ![13]
 Click on the `Iso-Area as Polygons (from Layer)` tool. Make the selections shown below. Save the output polygon layer as **diamond_quart_iso-area.geojson** within in the **Processed** folder within the **data** folder for this assignment.
-
+![13b]
 Click `Run`. The network analysis algorithm should begin processing. This may take a few minutes. 
 
 Once it as completed you will see two new layers added to your map. 
@@ -257,6 +257,7 @@ Upload a screenshot of the results with your submission on Canvas (this does not
 [11]: ../assets/images/assignment04/11.png
 [12]: ../assets/images/assignment04/12.png
 [13]: ../assets/images/assignment04/13.png
+[13b]: ../assets/images/assignment04/13b.png
 [14]: ../assets/images/assignment04/14.png
 [15]: ../assets/images/assignment04/15.png
 [16]: ../assets/images/assignment04/16.gif
