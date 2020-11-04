@@ -100,7 +100,7 @@ As you work to develop your project proposal and project please take a look at a
 
 ## Methodology
 
-The methodology assignment is like a road map for how you will accomplish the remainder of the analytical and cartographic work for your final project. In essence, your methodology is a plan for how you plan to answer your spatial research question. In your methodology you will identify all of the input datasets you need, how you will manipulate them using [geoprocessing operations](/../assignment03), and then what final outputs you will produce. It is also a chance to further refine your question and your topic after searching for datasets and speaking with the instructor and your peers about your topic.  
+The methodology assignment is like a road map for how you will accomplish the remainder of the analytical and cartographic work for your final project. In essence, your methodology is a plan for how you plan to answer your spatial research question. In your methodology you will identify all of the input datasets you need; how you will manipulate them using [geoprocessing operations](/../assignment03), select by expression operations, table and spatial joins and other methods you have learned this semester; and then what final outputs you will produce. It is also a chance to further refine your question and your topic after searching for datasets and speaking with the instructor and your peers about your topic.  
 
 **Please submit the following to your final project google drive folder by midnight on Tuesday 11/10** 
 
