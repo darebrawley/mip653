@@ -116,4 +116,4 @@ Then based on your spatial question craft a methodology for how you will answer 
 Please provide:
 
 -  a narrative methodology, written as clear prose paragraphs outlining the points above. Please upload this to your final project folder as a google doc (named: `02_methods_last_first`)
-- and a methodology diagram (examples of these can been seen in [assignment 03](please feel free to use your own graphic language but ) uploaded as a PDF to your final project folder (named: `02_methods_diagram_last_first.pdf`)
+- and a methodology diagram (examples of these can been seen in [assignment 03](please feel free to use your own graphic language but ) uploaded as a PDF to your final project folder (named: `02_methods_diagram_last_first.pdf`) This can be a single page or multiple pages but should be legible and thoughtfully designed.
