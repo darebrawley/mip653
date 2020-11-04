@@ -12,12 +12,15 @@ description:
 
 # Final project 
 
+* TOC
+{:toc}
+
 For your final project you will develop a research project that uses mapping to support or research some aspect of [Newark Forward: A blueprint for Equitable Growth and Opportunity in Newark](https://www.newarknj.gov/news/newark-forward-report). Students are encouraged to focus in particular on the plan’s consideration of Housing, Environmental Sustainability, and Inclusive Development. You may also propose a topic related to another current planning effort or current event in the City of Newark that is of interest to you, pending instructor approval.  
 
 ## Schedule
 
 **November 4**, topic proposal due  
-**November 11**, methodology due  
+**November 10 @ midnight**, methodology due  
 **November 18**, revised methodology, design precedents + preliminary maps due  
 **November 25** [No class (Friday classes meet on this day)](https://www5.njit.edu/registrar/fall-2020-academic-calendar/)   Please use this week to develop your projects  
 **December 2** near-final maps due  
@@ -95,3 +98,22 @@ You can access Census demographic and socioeconomic information (i.e. income, ag
 
 As you work to develop your project proposal and project please take a look at a few of [these projects](../final-project-precedents/) chosen as examples for graphic, methodological, and/or narrative approaches.  
 
+## Methodology
+
+The methodology assignment is like a road map for how you will accomplish the remainder of the analytical and cartographic work for your final project. In essence, your methodology is a plan for how you plan to answer your spatial research question. In your methodology you will identify all of the input datasets you need, how you will manipulate them using [geoprocessing operations](/../assignment03), and then what final outputs you will produce. It is also a chance to further refine your question and your topic after searching for datasets and speaking with the instructor and your peers about your topic.  
+
+**Please submit the following to your final project google drive folder by midnight on Tuesday 11/10** 
+
+Based on feedback from your classmates and the instructor revise the topic proposal for your project (see instructions for sections to include above). The aim here is to be as clear as possible on what you are investigating (the topic), and what spatial relationships you are seeking to uncover (the spatial aspect of your research question). You must also include an updated list of datasets you will use. Please aim to have located all or nearly all of them, make an appointment during office hours if you are having difficulty here. Save this revised text as a google doc within your [final project folder](https://drive.google.com/drive/u/1/folders/1uSOSPkrN2acUQ3tsIyoDfb7jiqyi-xxy) on Google Drive. Use the naming convention `01_topic_revised_last_first`
+
+Then based on your spatial question craft a methodology for how you will answer your chosen question. Your methodology should identify: 
+
+- Your spatial research question (which clearly states the topic, data used, and spatial relationships to be measured). Please see [these slides](https://docs.google.com/presentation/d/18kJrhxn078CgPPH69x8VwxxiwOD8pm-ezWz4O2ru-08/edit#slide=id.g9ee894bacb_13_0) for examples of spatial research questions from precedent projects.  
+- Input datasets
+- Analytical methods you will use and in what order
+- Final outputs
+
+Please provide:
+
+-  a narrative methodology, written as clear prose paragraphs outlining the points above. Please upload this to your final project folder as a google doc (named: `02_methods_last_first`)
+- and a methodology diagram (examples of these can been seen in [assignment 03](please feel free to use your own graphic language but ) uploaded as a PDF to your final project folder (named: `02_methods_diagram_last_first.pdf`)

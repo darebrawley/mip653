@@ -383,8 +383,8 @@ Desk crits
 **due:** revised methods, preliminary maps   
 
 ___
-25 November 2020
-**no class** (Friday Classes meet on Wednesday this week)
+25 November 2020  
+**no class** (Friday Classes meet on Wednesday this week)  
 ___  
 
 Week 13    
