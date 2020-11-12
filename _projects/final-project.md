@@ -72,8 +72,20 @@ The exact content will vary depending on your project (research project or narra
 Final reports/atlases must be uploaded to Canvas as a single designed PDF. 
 ___
 
+## Resources for Finding Datasets 
 
-## Topic proposal
+This [Rutgers Library GIS Reference Guide](https://libguides.rutgers.edu/c.php?g=336835&p=2267524) is a great starting point for finding New Jersey specific GIS data sources.  
+
+You can access Census demographic and socioeconomic information (i.e. income, age, sex, race, housing tenure, etc) via [data.census.gov](https://data.census.gov/cedsci/). These [video tutorials](https://www.census.gov/data/academy/webinars/2019/navigating-census-data.html) offer guidance on using the web interface.
+
+
+## Precedents
+
+As you work to develop your project proposal and project please take a look at a few of [these projects](../final-project-precedents/) chosen as examples for graphic, methodological, and/or narrative approaches.  
+
+
+
+## Topic proposal (due 11/4)
 
 **Please submit the following on Canvas by 6pm on 11/4** 
 
@@ -87,18 +99,7 @@ Decide on a preliminary topic and write up a proposal that has the following sec
 - List of datasets that you think you will need to use, identify which ones you already have (with links) and which you might need help to find
 - Bibliography with at least three sources aside from the Newark Forward plan relevant to your chosen topic. 
 
-## Resources for Finding Datasets 
-
-This [Rutgers Library GIS Reference Guide](https://libguides.rutgers.edu/c.php?g=336835&p=2267524) is a great starting point for finding New Jersey specific GIS data sources.  
-
-You can access Census demographic and socioeconomic information (i.e. income, age, sex, race, housing tenure, etc) via [data.census.gov](https://data.census.gov/cedsci/). These [video tutorials](https://www.census.gov/data/academy/webinars/2019/navigating-census-data.html) offer guidance on using the web interface.
-
-
-## Precedents
-
-As you work to develop your project proposal and project please take a look at a few of [these projects](../final-project-precedents/) chosen as examples for graphic, methodological, and/or narrative approaches.  
-
-## Methodology
+## Methodology (due 11/11)
 
 The methodology assignment is like a road map for how you will accomplish the remainder of the analytical and cartographic work for your final project. In essence, your methodology is a plan for how you plan to answer your spatial research question. In your methodology you will identify all of the input datasets you need; how you will manipulate them using [geoprocessing operations](/../assignment03), select by expression operations, table and spatial joins and other methods you have learned this semester; and then what final outputs you will produce. It is also a chance to further refine your question and your topic after searching for datasets and speaking with the instructor and your peers about your topic.  
 
@@ -119,17 +120,19 @@ Please provide:
 - and a methodology diagram (examples of these can been seen in [assignment 03](please feel free to use your own graphic language but ) uploaded as a PDF to your final project folder (named: `02_methods_diagram_last_first.pdf`) This can be a single page or multiple pages but should be legible and thoughtfully designed.
 
 
-## Methodology Revision & visual precedents
+## Methodology Revision & visual precedents (due 11/17)
 
-**For class on 11/18** please submit:
+Building on your work for 11/11 please work on the following
 
-1. a **revised version of your narrative methodology & methodology diagram** based on the feedback received on 11/11. By this stage your methodolgy document should clearly articulate:
-    - your research question
-    - all of the input datasets you need (include full citation);
-    - how you will manipulate them using [geoprocessing operations](/../assignment03), select by expression operations, table and spatial joins and other methods you have learned this semester; 
+1. by **midnight on 11/17** please complete a **revised version of your narrative methodology & methodology diagram** (so that I have a chance to review before class). This should be based on the feedback received on 11/11. By this stage your methodolgy document should clearly articulate:
+    - your spatial question (and any relevant sub-questions)
+    - all of the input datasets you will use (include full citation) -- & you should have explored each in QGIS to be sure you understand what information they contain and how to use them;
+    - the steps you will follow to answer your spatial question. Please outline specifically which methods you will use such as which [geoprocessing operations](/../assignment03), select by expression operations, table and spatial joins and other methods you have learned this semester; 
     - and then what final outputs you will produce
 
-    Upload to your final project folder the narrative methodology as a google doc (named: `03_methods_revised_last_first`) and the methodology diagram  (named as `03_methods_diagram_revised_last_first.pdf`). 
+    Upload to your final project folder the narrative methodology as a google doc (named: `03_methods_revised_last_first`) and the methodology diagram  (named as `03_methods_diagram_revised_last_first.pdf`) 
 
-2. design precedents for the look and feel you hope to achieve in the design of your final maps
-3. preliminary analysis work and output maps showing progress towards the requirements for the final presentation
+2. **Before class time on 11/18** please collect **design precedents** for the look and feel you hope to achieve in the design of your final maps. Please create a google slides presentation containing at least two precedent projects whose aesthetics you would like to draw from in your final maps
+3. **For class on 11/18** also bring with you preliminary work on analysis and output maps showing progress towards the requirements for the final presentation. This will be different for each student and you should have a sense of what you should accomplish here based on our conversation on 11/11. 
+
+
