@@ -120,7 +120,7 @@ Please provide:
 - and a methodology diagram (examples of these can been seen in [assignment 03](please feel free to use your own graphic language but ) uploaded as a PDF to your final project folder (named: `02_methods_diagram_last_first.pdf`) This can be a single page or multiple pages but should be legible and thoughtfully designed.
 
 
-## Methodology Revision & visual precedents (due 11/17)
+## Methodology Revision & visual precedents (due 11/17 & 11/18)
 
 Building on your work for 11/11 please work on the following
 
@@ -133,6 +133,6 @@ Building on your work for 11/11 please work on the following
     Upload to your final project folder the narrative methodology as a google doc (named: `03_methods_revised_last_first`) and the methodology diagram  (named as `03_methods_diagram_revised_last_first.pdf`) 
 
 2. **Before class time on 11/18** please collect **design precedents** for the look and feel you hope to achieve in the design of your final maps. Please create a google slides presentation containing at least two precedent projects whose aesthetics you would like to draw from in your final maps
-3. **For class on 11/18** also bring with you preliminary work on analysis and output maps showing progress towards the requirements for the final presentation. This will be different for each student and you should have a sense of what you should accomplish here based on our conversation on 11/11. 
+3. **For class on 11/18** also bring with you preliminary work on analysis and output maps showing progress towards the requirements for the final presentation. This will be different for each student and you should have a sense of what you should accomplish here based on our conversation on 11/11.
 
 
