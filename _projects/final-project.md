@@ -138,7 +138,7 @@ Building on your work for 11/11 please work on the following
 
 
 
-## Project narrative & near-final maps due 12/2
+## Project narrative & near-final maps (due 12/2)
 
 Please review the [requirements for final formats/outputs](http://mip652.darebrawley.net/final-project/#formats-and-outputs) listed above. 
 
