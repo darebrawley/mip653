@@ -25,6 +25,7 @@ For your final project you will develop a research project that uses mapping to 
 **November 25** [No class (Friday classes meet on this day)](https://www5.njit.edu/registrar/fall-2020-academic-calendar/)   Please use this week to develop your projects  
 **December 2** near-final maps due  
 **December 9** Final Presentations  
+**December 18** Final report or atlas due
 
 ## Description
 
@@ -69,7 +70,7 @@ The exact content will vary depending on your project (research project or narra
 - Thematic maps depicting your research from your final presentation slides
 - Conclusion 
 
-Final reports/atlases must be uploaded to Canvas as a single designed PDF. 
+Final reports/atlases must be uploaded to Canvas as a single designed PDF. Must be uploaded by December 18. (Hard deadline)  
 ___
 
 ## Resources for Finding Datasets 
@@ -136,3 +137,15 @@ Building on your work for 11/11 please work on the following
 3. **For class on 11/18** also bring with you preliminary work on analysis and output maps showing progress towards the requirements for the final presentation. This will be different for each student and you should have a sense of what you should accomplish here based on our conversation on 11/11.
 
 
+
+## Project narrative & near-final maps due 12/2
+
+Please review the [requirements for final formats/outputs](http://mip652.darebrawley.net/final-project/#formats-and-outputs) listed above. 
+
+By 12/2 you should: be finished or nearly finished with your analytical work in GIS; have a clear sense of how you will present your materials on 12/9; have already started to design you final map compositions following from the visual precedents you identified on 11/18.
+
+Please bring to class: 
+- an outline for your final presentation clearly articulating the content for each of your 10 slides
+- completed maps for at least 30% of your presentation slides
+
+This is your last opportunity for feedback prior to the final presentations on 12/9. Please use it wisely! 
