@@ -147,3 +147,24 @@ Use a table join to associate the tabular census information with the census bou
 Open the attribute table for the Essex County Census tracts to be sure it joined. Then export the layer as a new shapefile (or geojson) to make the join permanent.  
 
 You have now downloaded and prepped census data to work with! 
+
+
+
+----
+[01]: ../assets/images/resources/01.png
+[02]: ../assets/images/resources/02.png
+[03]: ../assets/images/resources/03.png
+[04]: ../assets/images/resources/04.png
+[05]: ../assets/images/resources/05.png
+[06]: ../assets/images/resources/06.png
+[07]: ../assets/images/resources/07.png
+[08]: ../assets/images/resources/08.png
+[09]: ../assets/images/resources/09.png
+[10]: ../assets/images/resources/10.png
+[11]: ../assets/images/resources/11.png
+[12]: ../assets/images/resources/12.png
+[13]: ../assets/images/resources/13.png
+[14]: ../assets/images/resources/14.png
+[15]: ../assets/images/resources/15.png
+[16]: ../assets/images/resources/16.gif
+[17]: ../assets/images/resources/17.png
