@@ -52,6 +52,13 @@ This course engages with this agency of maps directly in hands-on workshops cove
 
 #### [Examples/Precedents](/final-project-precedents/)
 
+<br>
+<br>
+
+## Supplemental Tutorials 
+
+#### [Downloading and pre-processing of Census data](/census-data/)
+
 <!-- #### [Sources for Datasets](/nj-datasets/) -->
 
 <br>
