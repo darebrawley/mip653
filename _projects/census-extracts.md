@@ -150,7 +150,7 @@ You have now downloaded and prepped census data to work with!
 
 
 
-----
+---
 [01]: ../assets/images/resources/01.png
 [02]: ../assets/images/resources/02.png
 [03]: ../assets/images/resources/03.png
