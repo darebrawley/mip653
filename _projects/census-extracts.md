@@ -23,11 +23,11 @@ This process involves two main steps:
 
 Visit [data.census.gov](https://data.census.gov/cedsci/) to download data from the U.S. Census Bureau.  
 
-![1]
+![01]
 
 Select `Advanced Search`  
 
-![2]
+![02]
 
 Use the filters to search for the specific dataset you are interested in finding.  
 An important thing to note here is that not all tables/variables from the Census Bureau are available for all geographies. So when searching for information that you hope to be able to map it is often advisable to select the 'geography' you are interested in first.  
@@ -35,19 +35,19 @@ For example, below I have selected all census tracts for Essex County in New Jer
 
 As a general note: information about total population from either the ACS or the Decennial Census is usually available at the census block level as are certain other demographic characteristics. However other more specific variables from the American Community Survey (for example, housing tenure, income information, etc) tend to only be available at the tract level. 
 
-![3] 
+![03] 
 
 After selecting the geography you are interested in you can proceed to select the topics you are searching for. In this example I will look for median income: 
 
-![4]
+![04]
 
 Then I will select 2018 as the year I am interested in (if you would like the same dataset ): 
 
-![5]
+![05]
 
 Then click `Search`
 
-![6] 
+![06] 
 
 You will be presented with many tables matching your search criteria. 
 
@@ -55,15 +55,15 @@ Select the `Tables` option at the top of the window to be able to preview the in
 
 For example `Income in the past 12 months` (table S1901) shows the estimated number of households in several different income brackets for each census tract as well as the median household income for the tract overall:  
 
-![7]
+![07]
 
 Whereas the `Median Income in tha past 12 months` (table S1903) shows the median income for multiple different demographic groups, and shows an estimate of how many households are classified into each group for each census tract:
 
-![8]
+![08]
 
 For this example we will download `Income in the past 12 months` (table S1901). Click `download` near the top left of the page. Then click the check box next to the dataset(s) you are tying to download. Click `download now`
 
-![9]
+![09]
 
 A window will appear, select csv as the format.  And select the years you are interested in (note: if you hadn't specified one year in the filter steps above then multiple years would be available here for you to select).  
 
