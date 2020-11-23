@@ -153,6 +153,7 @@ Please bring to class:
 This is your last opportunity for feedback prior to the final presentations on 12/9. Please use it wisely! 
 
 
+---
 
 Image credits (clockwise from top left):  
 [Ellis Calvin, Robert Freudenberg, Sarabrent McCoy. 2019. "The New Shoreline." Regional Plan Association](https://rpa.org/work/reports/the-new-shoreline)  
