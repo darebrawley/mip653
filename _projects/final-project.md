@@ -87,6 +87,9 @@ You can access Census demographic and socioeconomic information (i.e. income, ag
 As you work to develop your project proposal and project please take a look at a few of [these projects](../final-project-precedents/) chosen as examples for graphic, methodological, and/or narrative approaches.  
 
 
+# Weekly Deliverables 
+
+This section covers deliverables due each class session and will be updated weekly.  
 
 ## Topic proposal (due 11/4)
 
