@@ -74,7 +74,7 @@ ____
   
 # Requirements & expectations
 
-Participation in class discussion and workshops, including map presentations (20%)  
+Participation in class discussion and workshops, including map presentations (10%)  
 Completion of weekly skills-focused mapping assignments (40%)  
 Final project (40%)  
     Proposal (10%)  
