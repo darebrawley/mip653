@@ -154,6 +154,15 @@ This is your last opportunity for feedback prior to the final presentations on 1
 
 
 
+Image credits (clockwise from top left):  
+[Ellis Calvin, Robert Freudenberg, Sarabrent McCoy. 2019. "The New Shoreline." Regional Plan Association](https://rpa.org/work/reports/the-new-shoreline)  
+[Emily Badger, and Quoctrung Bui. 2019. “Cities Start to Question an American Ideal: A House With a Yard on Every Lot (Published 2019).” The New York Times, June 18, 2019, sec. The Upshot.](https://www.nytimes.com/interactive/2019/06/18/upshot/cities-across-america-question-single-family-zoning.html)  
+[Taylor Shelton. “Rethinking the RECAP: Mapping the Relational Geographies of Concentrated Poverty and Affluence in Lexington, Kentucky.” 2018.](https://drive.google.com/open?id=14RvglnIXTxb4mPIcZmOzp09E-uRNHWwV)  
+[Galen Pardee. 2020. *The Great Lakes*. [Exhibition]](https://www.archpaper.com/2020/09/the-great-lakes-architectural-expedition-at-osu/).  
+[Dennis Wood. 2011. "Everything Sings: Maps for a Narrative Atlas". Places Journal](https://placesjournal.org/article/everything-sings-maps-for-a-narrative-atlas/?cn-reloaded=1)
+[Scape. 2010. *Safari 7*.](https://www.scapestudio.com/projects/981/)  
+
+
 -----
 
 [research]: ../assets/images/research.png
