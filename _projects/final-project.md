@@ -9,6 +9,8 @@ permalink: /final-project/
 description: 
 ---
 
+![research]
+![narrative]
 
 # Final project 
 
@@ -149,3 +151,10 @@ Please bring to class:
 - completed maps for at least 30% of your presentation slides
 
 This is your last opportunity for feedback prior to the final presentations on 12/9. Please use it wisely! 
+
+
+
+-----
+
+[research]: ../assets/images/research.png
+[narrative]: ../assets/images/narrative.png
