@@ -71,6 +71,7 @@ The exact content will vary depending on your project (research project or narra
 - Methodology description + diagram (see examples in [assignment 03](/../assignment03))
 - Thematic maps depicting your research from your final presentation slides
 - Conclusion 
+- Bibliography (please be sure to include full citations for all datasets used and all reference sources)
 
 Final reports/atlases must be uploaded to Canvas as a single designed PDF. Must be uploaded by December 18. (Hard deadline)  
 ___
