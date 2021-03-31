@@ -13,9 +13,12 @@ description:
 # Assignment 01 mapping where things are
 
 Due: September 23, 2020
+
+![topo map]
+
 This assignment is an introduction to basic functions of working with vector spatial data in QGIS. As shown in the outline of the assignment below it consists of three parts. 
 
-In part one you will explore property ownership in Newark through basic spatial and attribute queries. In part two you will become familiar with how to manipulate Coordinate reference systems in QGIS. And in part three you will learn basic elements of map layout in QGIS, and will be asked to design a map in the style of a USGS topographc series map.
+In part one you will explore property ownership in Newark through basic spatial and attribute queries. In part two you will become familiar with how to manipulate Coordinate reference systems in QGIS. And in part three you will learn basic elements of map layout in QGIS, and will be asked to design a map in the style of a USGS topographc series map (shown above).
 
 Deliverables required for the assignment are outlined below.
 
@@ -377,3 +380,4 @@ Return to the print composer use the refresh view button to view the changes you
 [svg]: ../assets/images/assignment01/35_print.png
 [refresh]: ../assets/images/assignment01/36_print.png
 
+[topo map]: ../assets/images/assignment01/NJ_Elizabeth_254346_1955_24000.jpg
