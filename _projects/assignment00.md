@@ -11,7 +11,7 @@ description:
 
 
 ### Assignment 00: getting oriented
-Download QGIS3.10 
+Download QGIS3.16, the long term release (LTR) 
 1. Navigate to [this page](https://qgis.org/en/site/forusers/download.html)
 2. Download and install the appropriate version for your operating system
 
